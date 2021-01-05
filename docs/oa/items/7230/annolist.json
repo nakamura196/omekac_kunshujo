@@ -1,0 +1,72 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/7230/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/39077/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7dc435f6-2e3c-4051-ba0a-24da16a7afa6/canvas/p125",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1121,760,5620,4506"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1121.29422,760.16005h2810.20578v0h2810.20578v2253.1059v2253.1059h-2810.20578h-2810.20578v-2253.1059z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_26cc612b-a5db-4c06-a710-e616d49a24be\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/58/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun056-123-003]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "出版広告"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "名和b日本昆虫図説"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "名和昆虫研究所_拡張寄附金品募集主意書"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大垣_西濃印刷株式会社印刷"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "岐阜市京町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治37年3月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "発行所_岐阜市公園内_名和昆虫研究所"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/7b079ca97693fff31d936f2c10d0f6ae.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/efe2f570-44bd-4d67-8eac-96047a0d87ed/canvas/p62#xywh=4050,838,340,222",
+                    "@type": "sc:Canvas",
+                    "label": "bird",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.33583295"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "309,64,26,17"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "bird"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/46/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 四四"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/daf97292dc15d08b1def494a14d5010b.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7dc435f6-2e3c-4051-ba0a-24da16a7afa6/canvas/p181#xywh=0,445,7642,5492",
+                    "@type": "sc:Canvas",
+                    "label": "microwave",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.741663"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "0,34,583,419"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "microwave"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/58/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 五六"
+            }
+        }
+    ]
+}

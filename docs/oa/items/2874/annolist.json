@@ -1,0 +1,93 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/2874/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/30357/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f8bc0d0d-1efe-459e-bab0-720d34e23ac2/canvas/p16",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=3873,1100,2825,3923"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_b543b14b-93c6-4115-be66-a93af1b50dde\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 3873.5 5023.41 h 1412.67 v 0 h 1412.67 v -1961.47 v -1961.47 h -1412.67 h -1412.67 v 1961.47 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/33/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>小幡千春</p>\n<p>〔kun031-015-002〕</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "関根太左衛門"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/30363/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f8bc0d0d-1efe-459e-bab0-720d34e23ac2/canvas/p16",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=963,1308,2851,3704"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_0c6d9eaa-ee35-4eae-967b-7ef2e5b71961\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 3813.12 5011.66 h -1425.26 v 0 h -1425.26 v -1852.04 v -1852.04 h 1425.26 h 1425.26 v 1852.04 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/33/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>小幡千春</p>\n<p>〔kun031-016-001〕</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "女工不選繅糸器械"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "専売特許願中"
+                }
+            ]
+        }
+    ]
+}

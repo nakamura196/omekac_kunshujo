@@ -1,0 +1,60 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/5856/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/34917/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/721a0cd7-37d3-4529-b58d-628a57d81313/canvas/p88",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=3920,691,3096,4451"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_28e3ac45-0eb2-4265-af6c-9555188b8e1b\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 3919.83 691.412 h 1547.84 v 0 h 1547.84 v 2225.25 v 2225.25 h -1547.84 h -1547.84 v -2225.25 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/49/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>小幡千春</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "コンパス"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "武田九市郎商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "製造販売"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "謹告"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/1f673a7a29614ac78c1120a8f4398731.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/483f16f2-0b92-46aa-8392-43ddba7ff12e/canvas/p4#xywh=550,1389,6908,4981",
+                    "@type": "sc:Canvas",
+                    "label": "tvmonitor",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.7177192"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "42,106,527,380"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "tvmonitor"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/483f16f2-0b92-46aa-8392-43ddba7ff12e/canvas/p4#xywh=1664,2464,1848,1966",
+                    "@type": "sc:Canvas",
+                    "label": "person",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.36880592"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "127,188,141,150"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "person"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/63/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 六六"
+            }
+        }
+    ]
+}

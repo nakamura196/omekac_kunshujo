@@ -1,0 +1,52 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/6221/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/36258/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c638c6e3-1a52-4725-89f1-bae61ed29b0b/canvas/p48",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1074,745,6047,4525"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_4560d79a-0140-4114-a949-3c81faf0bcff\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"1e-005\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"64.0072\" text-anchor=\"none\" d=\"M 7120.19 744.751 h -3023.34 v 0 h -3023.34 v 2262.59 v 2262.59 h 3023.34 h 3023.34 v -2262.59 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/51/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>小幡千春</p>\n<p>〔kun049-047-002〕</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔ラベル〕Asahi"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "BoildSardine"
+                }
+            ]
+        }
+    ]
+}

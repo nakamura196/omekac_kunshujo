@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/8dd3c4f602a5eb5ab996d262e965506b.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d5301ff8-a047-4216-a85f-cd220b4f3dbd/canvas/p14#xywh=170,576,7432,7864",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.3263895"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "13,44,567,600"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "book"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/60/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 五九"
+            }
+        }
+    ]
+}

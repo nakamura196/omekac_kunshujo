@@ -1,0 +1,66 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/d7f9dc53bf56ef401e68cf30717f993d.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f763be26-ab92-4674-8872-4fffe3926d4a/canvas/p64#xywh=4142,144,996,602",
+                    "@type": "sc:Canvas",
+                    "label": "bird",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.63094914"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "316,11,76,46"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "bird"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f763be26-ab92-4674-8872-4fffe3926d4a/canvas/p64#xywh=3185,235,642,1271",
+                    "@type": "sc:Canvas",
+                    "label": "bird",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.738783"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "243,18,49,97"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "bird"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/52/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 五十"
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/6410/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/36926/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/62695043-36c6-4de2-a954-fdd9f38b6f1b/canvas/p78",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1842,702,4735,3864"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6576.13177,702.07942h-2367.26715v0h-2367.26715v1931.88448v1931.88448h2367.26715h2367.26715v-1931.88448z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_67da726e-b80c-420b-9755-367884ff03cd\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"37.04122\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/53/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun051-075-004]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三日市大夫次郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "伊勢国山田町尊皇教会本部"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "会員之証[_ひな型]"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "会長子爵慈光寺恭仲"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "前衆議院議員_寺田彦太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "前衆議院議員_臼井哲夫"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "名誉賛成員"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "正三位勲一等子爵_渡邊昇"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "衆議院議員_松嶋廉作"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "陸軍少将_藤井包総"
+                }
+            ]
+        }
+    ]
+}

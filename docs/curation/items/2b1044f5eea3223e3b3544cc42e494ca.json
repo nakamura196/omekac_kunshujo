@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/2b1044f5eea3223e3b3544cc42e494ca.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7cdad438-6d4a-4b18-8901-23f241da346d/canvas/p62#xywh=5964,3958,1756,3041",
+                    "@type": "sc:Canvas",
+                    "label": "cup",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.31774372"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "455,302,134,232"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "cup"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/64/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 六七"
+            }
+        }
+    ]
+}

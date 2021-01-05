@@ -1,0 +1,80 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/7405/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/39528/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7dc435f6-2e3c-4051-ba0a-24da16a7afa6/canvas/p300",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1299,1353,5585,3902"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1299.09206,1352.81949h2792.42599v0h2792.42599v1950.84958v1950.84958h-2792.42599h-2792.42599v-1950.84958z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9ae9c9a6-b01c-4107-acb3-7698a542de92\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/58/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun056-271-030]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Automatic_sash_holder"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Corea_and_Manchuria"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Fujiwara&co."
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Sole_agents_for_Japan"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "アイボリー石鹸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市京橋区銀座3丁目14番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東洋一手販売_藤原商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "特約直輸入元_藤原商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "米国製自働窓框止"
+                }
+            ]
+        }
+    ]
+}

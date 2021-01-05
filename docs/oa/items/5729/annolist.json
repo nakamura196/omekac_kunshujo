@@ -1,0 +1,88 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/5729/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/35863/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/31ca43e6-50e9-46ad-97f5-ee9013820b19/canvas/p39",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4085,730,3165,4526"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4085.34627,729.85002h1582.64401v0h1582.64401v2262.86155v2262.86155h-1582.64401h-1582.64401v-2262.86155z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_846bc4d7-f34f-4fee-b08d-8747cecdb958\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/48/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>村上美和</p>\n<p>※手書き訂正あり</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "てぐす_釣針まがい糸_卸小売_野崎仲次郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "広告"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "椎皮エキス"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "櫓木商_後藤喜三郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "活版石版印刷_福田堂"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "海産物問屋_住源商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "漁網染料_各エキス_海陸産物商_貴島商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "生澁商_中務勇次郎商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第30号"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "通商月報"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "鰹節問屋_瀬良善吉商店"
+                }
+            ]
+        }
+    ]
+}

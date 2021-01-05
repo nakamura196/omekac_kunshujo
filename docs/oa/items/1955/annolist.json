@@ -1,0 +1,72 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/1955/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/27740/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ae79a1ed-6f7a-4da5-85b0-4394cc6e7351/canvas/p6",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=974,683,5573,4277"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M974.22924,682.60028h2786.65283v0h2786.65283v2138.31548v2138.31548h-2786.65283h-2786.65283v-2138.31548z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_632df55e-15c7-4321-b9e7-9e2840c1ee9a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"26.49684\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/26/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>村上美和、中村</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "夕顔おしろい"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本帝国農商務省御登録済"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "岳湯堂平尾氏"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京_富士見軒"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京瀬戸物町8番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "製造本店_駿河屋又兵衛"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "馬喰町1丁目"
+                }
+            ]
+        }
+    ]
+}

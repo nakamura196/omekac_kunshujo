@@ -1,0 +1,64 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/4589/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/32958/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29ce9528-b3c8-475b-8d40-74cb99083cae/canvas/p32",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4171,687,2380,4130"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4170.81947,4817.1206h1189.87428v0h1189.87428v-2064.8162v-2064.8162h-1189.87428h-1189.87428v2064.8162z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_32859217-32ba-4b79-800c-bd1a18aa1216\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/42/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>新庄航人</p>\n<p>[kun040-031-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Our_black_and_brick_tea"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "弊社ノ紅茶碾茶ハ精選精良ニシテ最モ需用諸君の嗜好ニ適合セリ而シテ陳列セシ通リノ荷造ヲナシ左ノ価格ニテ日本各港ノ内諸君示定ノ港渡ニシテ需メニ応ズ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "碾茶"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "福岡県八女郡福島町_福岡製茶合資会社"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "紅茶"
+                }
+            ]
+        }
+    ]
+}

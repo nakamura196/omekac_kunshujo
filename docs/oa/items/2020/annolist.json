@@ -1,0 +1,112 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/2020/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/30889/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ae79a1ed-6f7a-4da5-85b0-4394cc6e7351/canvas/p71",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1007,639,5617,4398"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1007.19555,638.64521h2808.63037v0h2808.63037v2198.75371v2198.75371h-2808.63037h-2808.63037v-2198.75371z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_13af2594-7968-4ed0-99c6-f1bdeda1245f\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"59.33935\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/26/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>村上美和</p>\n<p>［kun025-043-029］</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Beans"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Corn"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "インゲン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "さやいんけん"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "そらまめ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "とうもろこし"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "むらさきふじまめ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仏国種_玉蜀黍"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仏国種_菜豆"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仏国種_豌豆"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京三田育種場"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "清国種_紫莢鵲豆"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "種袋"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "米国種_玉蜀黍"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "米国種_莢菜豆"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "蠶豆"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "野菜"
+                }
+            ]
+        }
+    ]
+}

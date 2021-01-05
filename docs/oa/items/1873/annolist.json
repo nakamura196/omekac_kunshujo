@@ -1,0 +1,76 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/1873/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/29788/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a78aa5da-a3eb-4639-b4cc-86b458f9d2a5/canvas/p7",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=875,529,5991,4376"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M875.33032,528.75752h2995.43943v0h2995.43943v2187.76494v2187.76494h-2995.43943h-2995.43943v-2187.76494z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_155f3918-05c0-4724-9b22-d424b2281776\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/25/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子、中村</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "4月1日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "上野公園"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "伊達宗城"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治19年3月26日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東洋絵画共進会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東洋絵画共進会開場式順序"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "田中芳男"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "開場式"
+                }
+            ]
+        }
+    ]
+}

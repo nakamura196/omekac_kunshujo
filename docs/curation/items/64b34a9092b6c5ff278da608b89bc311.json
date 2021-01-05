@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/64b34a9092b6c5ff278da608b89bc311.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/31ca43e6-50e9-46ad-97f5-ee9013820b19/canvas/p25#xywh=340,65,6960,4102",
+                    "@type": "sc:Canvas",
+                    "label": "truck",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.47072613"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "26,5,531,313"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "truck"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/48/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 四六"
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/5740/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/36902/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/31ca43e6-50e9-46ad-97f5-ee9013820b19/canvas/p50",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1050,713,6083,4565"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1050.17509,712.74729h3041.34296v0h3041.34296v2282.73887v2282.73887h-3041.34296h-3041.34296v-2282.73887z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_0f3f9238-49e5-4557-bb7a-205c04afbc52\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/48/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>村上美和</p>\n<p>［kun046-049-002］</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "岩の原第二葡萄園一部の写真"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治３５年５月２９日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "有栖川中条宮殿下"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京帝国大学医科大学教授_正五位医学博士_高橋順太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東宮殿下行啓"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "横浜税関鑑定官工学士_野間誉雄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "発売元_越後高田_日本葡萄酒株式会社"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "陸軍薬剤監_平山増之助"
+                }
+            ]
+        }
+    ]
+}

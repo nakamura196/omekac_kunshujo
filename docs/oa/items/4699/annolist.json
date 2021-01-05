@@ -1,0 +1,80 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/4699/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/33173/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29ce9528-b3c8-475b-8d40-74cb99083cae/canvas/p142",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1107,703,3002,4447"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4109.41969,5150.16958h-1500.98375v0h-1500.98375v-2223.72514v-2223.72514h1500.98375h1500.98375v2223.72514z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_aaffa05a-3058-4402-9fd6-dbb9b58b5c5b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/42/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>新庄航人</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "下総成田町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "元祖"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "告白"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "成田名物"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "栗ようかん"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "永楽堂謹製"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "永楽通宝"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "羊羹"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "農商務省登録商標"
+                }
+            ]
+        }
+    ]
+}

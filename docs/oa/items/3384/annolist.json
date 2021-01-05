@@ -1,0 +1,84 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/3384/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/34222/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/807028c6-85e6-46e7-8f3a-a78723e58996/canvas/p162",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1751,2101,3777,3044"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5527.93381,2101.28511h-1888.51564v0h-1888.51564v1522.09657v1522.09657h1888.51564h1888.51564v-1522.09657z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_adb3e526-098c-4003-ba08-4eb4f7192798\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"63.03249\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/35/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun033-160-003]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "[神社創立願]"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "勢参遠甲相6ヶ国"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "報徳社員1万人総代"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小林菊太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小田原町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治25年4月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "添田半七"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "添田理平治"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "神奈川県足柄下郡報徳社員"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "草柳伝兵衛"
+                }
+            ]
+        }
+    ]
+}

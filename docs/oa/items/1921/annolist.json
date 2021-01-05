@@ -1,0 +1,92 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/1921/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/29677/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a78aa5da-a3eb-4639-b4cc-86b458f9d2a5/canvas/p55",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=912,3272,5902,2321"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6814.15336,3272.16078h-2950.92957v0h-2950.92957v1160.50578v1160.50578h2950.92957h2950.92957v-1160.50578z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_25d30ef2-7751-4f6c-ac2d-881c67f05f79\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/25/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun-024-053-003]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "7月9日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本織物協会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本農会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "寄贈"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "御礼"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "成島復三郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治19年6月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治19年7月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治19年9月9日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "柳北"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "紀念碑"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "龍池会幹事"
+                }
+            ]
+        }
+    ]
+}

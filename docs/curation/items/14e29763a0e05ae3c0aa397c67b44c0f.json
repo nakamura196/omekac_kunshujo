@@ -1,0 +1,66 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/14e29763a0e05ae3c0aa397c67b44c0f.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/276aa11d-2300-4195-aecd-ae748e2d838c/canvas/p72#xywh=5204,262,1114,1520",
+                    "@type": "sc:Canvas",
+                    "label": "clock",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.7924618"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "397,20,85,116"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "clock"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/276aa11d-2300-4195-aecd-ae748e2d838c/canvas/p72#xywh=0,1035,7864,10984",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.30827424"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "0,79,600,838"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "book"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/47/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 四五"
+            }
+        }
+    ]
+}

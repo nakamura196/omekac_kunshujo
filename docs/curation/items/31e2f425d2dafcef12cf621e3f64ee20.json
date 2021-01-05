@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/31e2f425d2dafcef12cf621e3f64ee20.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d5301ff8-a047-4216-a85f-cd220b4f3dbd/canvas/p13#xywh=3067,6462,2857,1979",
+                    "@type": "sc:Canvas",
+                    "label": "apple",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.7973391"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "234,493,218,151"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "apple"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/60/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 五九"
+            }
+        }
+    ]
+}

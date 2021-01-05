@@ -1,0 +1,92 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/2024/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/30917/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ae79a1ed-6f7a-4da5-85b0-4394cc6e7351/canvas/p75",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1018,650,5648,4354"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1018.18432,649.63398h2824.22794v0h2824.22794v2176.77617v2176.77617h-2824.22794h-2824.22794v-2176.77617z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_180c9fe8-e5c7-42ee-9a2b-c9cf73c5bc55\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"18.40058\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/26/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>村上美和</p>\n<p>［kun025-043-033］</p>\n<p>※中央下部に別資料あり</p>\n<p>［ 大日本織物協会<br />東京下谷区南稲荷町33番地］</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "The_Mita_Seed_Raisingestablishment_of_the_Japan_Agricultural_Society"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三河島菘"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "佐土原種_水茄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "内外産_種苗売捌所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本農会三田育種場"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京芝区三田四国町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "清国種_大茄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "清国種_水茄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "種袋"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "米国種_大茄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "茄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "野菜"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/7189/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/38529/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7dc435f6-2e3c-4051-ba0a-24da16a7afa6/canvas/p84",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1123,642,3032,4506"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4155.71059,641.62816h-1516.20818v0h-1516.20818v2253.1059v2253.1059h1516.20818h1516.20818v-2253.1059z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_f26e838d-8642-46d6-b7ab-0e2ae61b66f4\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"25.72307\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/58/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun056-084-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仝市上野広小路三橋際"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仝市浅草区松葉町114番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "敷島下駄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "敷島細工第一製造場"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京商品館内階下_敷島細工陳列店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市日本橋区坂本町21番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "特許出願中_敷嶋細工"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "発売元_白鳥商店内_敷島細工販売店"
+                }
+            ]
+        }
+    ]
+}

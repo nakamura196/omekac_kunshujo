@@ -1,0 +1,66 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/omekac_kunshujo/curation/items/695253657d97b5c7d7e83e10cb4c578e.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/58dd4258-e1ea-4561-8f0d-a13be6649b12/canvas/p78#xywh=2260,4874,4096,4071",
+                    "@type": "sc:Canvas",
+                    "label": "vase",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.8368667"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "186,401,337,335"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "vase"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/58dd4258-e1ea-4561-8f0d-a13be6649b12/canvas/p78#xywh=2260,4874,4096,4071",
+                    "@type": "sc:Canvas",
+                    "label": "cup",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.6880184"
+                        },
+                        {
+                            "label": "Thumbnail Region",
+                            "value": "186,401,337,335"
+                        },
+                        {
+                            "label": "Tag",
+                            "value": "cup"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/23/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "捃拾帖 二十二"
+            }
+        }
+    ]
+}

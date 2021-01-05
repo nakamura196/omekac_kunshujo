@@ -1,0 +1,84 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/3413/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/34763/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/807028c6-85e6-46e7-8f3a-a78723e58996/canvas/p191",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1031,2676,3066,1977"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1030.64701,2676.10269h1533.03971v0h1533.03971v988.31448v988.31448h-1533.03971h-1533.03971v-988.31448z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e6c6b0ea-a154-43e4-b89b-90ceefa4bf51\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/35/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun033-185-010]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "[好古社規則]"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宮崎幸麿"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "幹事"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治24年10月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市小石川区竹早町13番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市浅草区向柳原町2丁目1番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市牛込区牛込南町20番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京秀英舎印刷"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "社長_伯爵_松浦詮"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "鈴木弘恭"
+                }
+            ]
+        }
+    ]
+}

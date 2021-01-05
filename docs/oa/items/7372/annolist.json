@@ -1,0 +1,80 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/7372/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/39316/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7dc435f6-2e3c-4051-ba0a-24da16a7afa6/canvas/p267",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4302,3110,2107,1725"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6409.48492,3109.7089h-1053.64572v0h-1053.64572v862.72272v862.72272h1053.64572h1053.64572v-862.72272z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_d4bcd5cc-123c-47df-88e8-9d8c57e9a17a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/58/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun056-262-006]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "1893"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "N.Kimura"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "常盤香"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "日本大阪市南区塩町通3丁目"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "最良の梅花油広告"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "木村猶三郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松金香"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "龍梅香"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "龍麝香"
+                }
+            ]
+        }
+    ]
+}
