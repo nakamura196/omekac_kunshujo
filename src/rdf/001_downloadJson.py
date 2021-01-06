@@ -13,9 +13,12 @@ import json
 import csv
 
 def dwn(url, opath):
-    if not os.path.exists(opath):
-        dirname = os.path.dirname(opath)
-        os.makedirs(dirname, exist_ok=True)
+
+    if os.path.exists(opath):
+        return
+
+    dirname = os.path.dirname(opath)
+    os.makedirs(dirname, exist_ok=True)
 
     try:
         result = requests.get(url).json()
@@ -23,9 +26,6 @@ def dwn(url, opath):
         with open(opath, 'w') as outfile:
             json.dump(result, outfile, ensure_ascii=False,
                 indent=4, sort_keys=True, separators=(',', ': '))
-
-        
-        
     except Exception as e:
         print("Err", url)
 
@@ -65,7 +65,12 @@ for key in st:
             with open(opath) as f:
                 df = json.load(f)
 
-                obj = df["http://ja.dbpedia.org/resource/"+ln]
+                uri = "http://ja.dbpedia.org/resource/"+ln
+
+                if uri not in df:
+                    continue
+
+                obj = df[uri]
 
                 if "http://www.w3.org/2002/07/owl#sameAs" in obj:
 
