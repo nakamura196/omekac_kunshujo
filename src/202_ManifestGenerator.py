@@ -44,12 +44,14 @@ for collection in collections:
     collection_json = requests.get(collection_url).json()
     manifests = collection_json["manifests"]
 
-    for manifest in manifests:
+    for k in range(len(manifests)):
+        manifest = manifests[k]
+
         manifest_url = manifest["@id"]
 
-        print(manifest_url)
-
         manifest_json = requests.get(manifest_url).json()
+
+        print(manifest_url, manifest_json["label"])
 
         canvases = manifest_json["sequences"][0]["canvases"]
 
@@ -62,16 +64,12 @@ for collection in collections:
 
             anno_id = int(otherContent_url.split("/")[-2])
             
-            '''
-            if anno_id < 8078:
+            
+            if anno_id < 11313:
                 continue
-
-            if os.path.exists(data_path):
-                continue
-            '''
 
             # print("***", otherContent_url, data_path)
-            print(i+1, len(canvases), anno_id)
+            print(i+1, "canvas_size", len(canvases), "anno_id", anno_id, "manifests", k, len(manifests))
             
             canvas["otherContent"][0]["@id"] = canvas["otherContent"][0]["@id"].replace(prefix_1, prefix_3)
 
