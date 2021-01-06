@@ -1,429 +1,567 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="https://jpsearch.go.jp/term/type/"
+  xmlns:ns1="http://www.w3.org/2002/07/owl#"
+  xmlns:ns2="http://schema.org/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ns2="http://www.w3.org/2002/07/owl#"
-  xmlns:ns3="http://schema.org/"
+  xmlns:ns3="https://jpsearch.go.jp/term/type/"
 >
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/書状">
-    <ns3:description xml:lang="ja">手紙（てがみ）とは、特定の相手に対して情報を伝達するための文書のこと。信書（しんしょ）、書簡・書翰（しょかん）、書状（しょじょう）などとも呼ばれる。古くは消息（しょうそく、しょうそこ）、尺牘（せきとく）とも呼ばれた。広義には封書（封筒に入れて送る書状）、はがき（封筒に入れずに送る書状）、特定の人に向けて回覧する紙片の全般を含むが、狭義には封書のみを指して用いることも多い。英語では封書を意味する"letter"、あるいは郵便物を意味する"mail"をあてるのが一般的である。</ns3:description>
-    <rdfs:label>手紙</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q133492"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/手紙"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Letter_(message)"/>
-  </ns1:Type>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/葉書">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Prefect_Office_Nagasaki.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Postcard"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/はがき"/>
-    <ns3:description xml:lang="ja">はがき（葉書、端書）は、手紙の形態の一つ。郵便葉書の略。郵便約款で定められた規格・様式に基づき、郵便料金を示す証票が印刷された通信用紙（官製はがき）およびこれを基準として作られた、切手を貼って出す通信用紙（私製はがき）。宛先と本文を一枚の厚めの紙（サイズは官製はがきで100.0mm×148.0mm）に書いて、封筒に入れずにそのまま送付する。英語ではPostCardまたはPostal Card。フランス語ではCarte Postale。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q192425"/>
-    <rdfs:label>はがき</rdfs:label>
-  </ns1:Keyword>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/大阪市">
-    <rdfs:label>大阪市</rdfs:label>
-    <ns3:description xml:lang="ja">大阪市（おおさかし）は、日本の近畿地方（関西地方）、大阪府のほぼ中央に位置する市で、同府の府庁所在地である。政令指定都市に指定されている。</ns3:description>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Osaka"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/大阪市"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q35765"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_montage.jpg?width=300"/>
-  </ns1:Place>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/領収書">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q330190"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/領収書"/>
-    <ns3:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Receipt_JPY.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Receipt"/>
-    <ns3:description xml:lang="ja">領収書（りょうしゅうしょ、英: receipt）は、代金の受取人が支払者に対して、何らかの対価として金銭を受け取ったことを証明するために発行する書類のこと。領収書を英語でいうと、レシートとなるが、日本語で"レシート"と言うとキャッシュレジスターから印字されたレジ・シートのことを指し、手書きなどで領収書の書式に記載された”領収書”と使い分けることが多い。</ns3:description>
-    <rdfs:label>領収書</rdfs:label>
-  </ns1:Keyword>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/値札">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q490527"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Victorinox_Swiss_Army_Men's_241424_Dive_Master_500_Chrono_Black_Dial_Watch-10.jpg?width=300"/>
-    <ns3:description xml:lang="ja">値札（ねふだ、英: price tag、price label）は、小売店側が客に示すために商品の価格を記した札。メーカーの出荷時点で既に付けている場合、流通の途中段階で付ける場合、小売店に商品が到着してから付ける場合など、そのタイミングはさまざまである。また、単に（ショーウインドーなどで）商品の近くに置いたものも含めて、値札と呼ぶことがある。</ns3:description>
-    <rdfs:label>値札</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/値札"/>
-  </ns1:Type>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/大日本山林会">
-    <ns3:description xml:lang="ja">公益社団法人大日本山林会（だいにっぽんさんりんかい、英語：The Japan Forestry Association）は、国内外の森林・林業の発展を図ることを目的とする公益社団法人である。旧主務官庁は農林水産省。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/大日本山林会"/>
-    <rdfs:label>大日本山林会</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q17996103"/>
-  </ns1:Organization>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/名古屋">
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/名古屋"/>
-    <rdfs:label>名古屋</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11414791"/>
-  </ns1:Place>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/名刺">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q13426746"/>
-    <rdfs:label>名刺</rdfs:label>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Business_card"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Goethe_visiting_card.png?width=300"/>
-    <ns3:description xml:lang="ja">名刺（めいし、中: 名片、米: Calling Card、英: Visiting Card、Business Cardの表記も）は、本人が自らの名前と所属・連絡先等を示すために他人に渡すことを目的としたカードである。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/名刺"/>
-  </ns1:Type>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/地図">
-    <rdfs:label>地図</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/地図"/>
-    <ns3:description xml:lang="ja">地図（ちず）とは、地球などの地表、あるいは架空の世界の全部または特定の一部分を縮小表現したものである。「文化の総合的産物」ともいわれ、「文字よりも古いコミュニケーション手段」と称されることがあるように、表現手法として人類に重宝されてきた。</ns3:description>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/1154_world_map_by_Moroccan_cartographer_al-Idrisi_for_king_Roger_of_Sicily.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Map"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q4006"/>
-  </ns1:Type>
-  <ns1:Agent rdf:about="https://kunshujo.web.app/api/chname/田中芳男">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tanaka_Yoshio.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11575905"/>
-    <rdfs:label>田中芳男</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/田中芳男"/>
-    <ns3:description xml:lang="ja">田中 芳男（たなか よしお、天保9年8月9日（1838年9月27日） - 大正5年（1916年）6月22日）は、幕末から明治期に活躍した博物学者、物産学者、農学者、園芸学者、錦鶏間祗候、男爵。明治期に動物園、植物園を構想し、上野で実現。「博物館」という名称を生み出し、殖産興業の指導に尽力、基礎博物学の啓蒙につとめる。パリで行われた第4回万国博覧会、ウィーン万国博覧会に責任者として派遣される。元老院議官、貴族院議員、大日本山林会会長、日本園芸会副会長を歴任。</ns3:description>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Tanaka_Yoshio"/>
-  </ns1:Agent>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/御菓子司">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q5200157"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/菓子"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Disambig_gray.svg?width=300"/>
-    <rdfs:label>菓子</rdfs:label>
-    <ns3:description xml:lang="ja">菓子（かし）は、甘味や塩味など味覚強調し、あるいは食感など触覚に工夫し、各種の匂いで嗅覚など食味感覚の嗜好品として製造、調理された食品。一般に穀類の粉を練り焼くあるいは蒸すなどしたビスケットや饅頭、糖質を主体としたキャンディやチョコレート類、アイスクリームなどの冷凍菓子などを総合し、菓子と分類されている。近代になり冷凍冷蔵技術の向上と大量生産を可能にする工業化が進んだ事で、菓子の種類と生産量は飛躍的に増えた。これにより菓子製造販売は、旧来の職人が手作りして専門菓子店（和菓子店・洋菓子店・煎餅店等）で小売りするといった形態の他、工場生産された包装済みの菓子が小売店（スーパーマーケットやドラッグストア等）で販売されるという形態が定着した。主に品質が均一で安価な商品は工場で生産し、手間のかかる高品質な物や流通の困難な商品は専門菓子店が製造するといった棲み分けが定着されてきている。なお、日本では食品衛生法および乳等省令により、アイスクリームなどは一般食品である菓子ではなく、乳製品として分類されている。また、果実を乾燥させたり砂糖漬けにしたものや、焼き芋や煎り豆などに代表される農産物を単純に加工したものは菓子製造と見なされない場合が多いが、一方でポテトチップやポップコーンに関してはスナック菓子として扱われている。</ns3:description>
-  </ns1:Keyword>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/鹿鳴館">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q1039219"/>
-    <rdfs:label>鹿鳴館</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/鹿鳴館"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Rokumeikan"/>
-    <ns3:description xml:lang="ja">鹿鳴館（ろくめいかん）は、国賓や外国の外交官を接待するため、明治政府によって建てられた社交場である。鹿鳴館を中心にした外交政策を「鹿鳴館外交」、欧化主義が広まった明治10年代後半を「鹿鳴館時代」と呼ぶ。当時の極端に走った欧化政策を象徴する存在でもあった。建物は後に華族会館となり、1940年（昭和15年）に取壊された。</ns3:description>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Rokumeikan.jpg?width=300"/>
-  </ns1:Keyword>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/広告">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/えちご屋広告チラシ.JPG?width=300"/>
-    <rdfs:label>広告</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q37038"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/広告"/>
-    <ns3:description xml:lang="ja">広告（こうこく、英語：advertisement）は、宣伝活動の一つであるが、広告であるためには以下の3条件が整っていなければならないというのが国際的に見た広告の定義である。アメリカマーケティング協会やアメリカの多くの研究者の定義を踏まえて定義づけたものがある。「広告とは、非人的メッセージの中に明示された広告主が所定の人々を対象にし、広告目的を達成するために行なう商品・サービスさらにはアイデア（考え方、方針、意見などを意味する）についての情報伝播活動であり、その情報は広告主の管理可能な広告媒体を通じて広告市場に流されるものである。広告には企業の広告目的の遂行はもとより、消費者または利用者の満足化、さらには社会的・経済的福祉の増大化などの機能をも伴うことになる。企業の他に、非営利機関、個人などが広告主となる場合もある。」というものである。広告のカテゴリーとなる3条件は、1.管理可能な広告媒体（広告主が宣伝しようとする場合、新聞記事やテレビ番組に取り上げてもらう管理不可能なパブリシティと区別するためである）、2.非人的メッセージ、3.明示された広告主 (advertiser) が行うということである。↑</ns3:description>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Advertising"/>
-  </ns1:Keyword>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/三重県">
-    <ns3:description xml:lang="ja">三重県（みえけん）は、日本の都道府県の一つで、日本最大の半島である紀伊半島の東側に位置する。県庁所在地は県中部の津市。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q128196"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Naiku_05.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/三重県"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Mie_Prefecture"/>
-    <rdfs:label>三重県</rdfs:label>
-  </ns1:Place>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/東京">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2015.jpg?width=300"/>
-    <rdfs:label>東京</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q7473516"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/東京"/>
-    <ns3:description xml:lang="ja">東京（とうきょう、英語：Tokyo）は、1868年9月（慶応4年7月）に江戸幕府の所在地の江戸を「東京」と改称したものであり、日本の首都機能のある都市。。関東平野にあり、東京湾に面する。</ns3:description>
-  </ns1:Place>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/大阪">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11439906"/>
-    <ns3:description xml:lang="ja">大阪（おおさか、英: Ōsaka）は、日本の近畿地方（関西地方）の地名である。西日本最大の都市である大阪市（狭義の大阪）と、大阪市を府庁所在地とする大阪府を指す地域名称であり、広い意味では大阪市を中心とする京阪神（畿内、大阪都市圏、関西圏）を漠然と総称することにも使われる。関西の経済・文化の中心地で、古くは大坂と表記し、古都・副都としての歴史を持つ。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/大阪"/>
-    <rdfs:label>大阪</rdfs:label>
-  </ns1:Place>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/大日本農会">
-    <rdfs:label>大日本農会</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11435747"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/大日本農会"/>
-    <ns3:description xml:lang="ja">公益社団法人大日本農会（だいにほんのうかい）は、元農林水産省生産局所管の公益社団法人。</ns3:description>
-  </ns1:Keyword>
-  <ns1:Event rdf:about="https://kunshujo.web.app/api/event/内国勧業博覧会">
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/内国勧業博覧会"/>
-    <rdfs:label>内国勧業博覧会</rdfs:label>
-    <ns3:description xml:lang="ja">内国勧業博覧会とは、日本の明治時代に5回開かれた博覧会。名称通り国内の産業発展を促進し、魅力ある輸出品目育成を目的とした、政府主導の博覧会である。</ns3:description>
-  </ns1:Event>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/鶏卵">
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/鶏卵"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Chicken_eggs.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q15260613"/>
-    <ns3:description xml:lang="ja">鶏卵（けいらん）は、ニワトリの卵である。生で、または加熱した料理とされる。単に「卵」と呼ぶことが多い。殻を割った中身は黄身と白身に分かれている。生の卵を溶いたものを「溶き卵」と言う。</ns3:description>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/鶏卵">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q15260613"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/鶏卵"/>
+    <ns2:description xml:lang="ja">鶏卵（けいらん）は、ニワトリの卵である。生で、または加熱した料理とされる。単に「卵」と呼ぶことが多い。殻を割った中身は黄身と白身に分かれている。生の卵を溶いたものを「溶き卵」と言う。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Chicken_eggs.jpg?width=300"/>
     <rdfs:label>鶏卵</rdfs:label>
-  </ns1:Keyword>
-  <ns1:Agent rdf:about="https://kunshujo.web.app/api/chname/佐野常民">
-    <ns3:description xml:lang="ja">佐野 常民（さの つねたみ、1823年2月8日（文政5年12月28日） - 1902年（明治35年）12月7日）は、日本の武士（佐賀藩士）、政治家。日本赤十字社の創始者。官職は枢密顧問官、農商務大臣、大蔵卿、元老院議長。勲等は勲一等。爵位は伯爵。称号は日本赤十字社名誉社員。佐賀の七賢人に挙げられている。名は栄寿、栄寿左衛門。子は佐野常羽。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q555055"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Sano_Tsunetami"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/佐野常民"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tsunetami_Sano.jpg?width=300"/>
-    <rdfs:label>佐野常民</rdfs:label>
-  </ns1:Agent>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/入場券">
-    <ns3:description xml:lang="ja">入場券（にゅうじょうけん）とは、切符の一種で、入場に何らかの制限が加わっている施設において、その施設に入場するために必要となる切符のことである。本項では、鉄道駅に入場するための入場券と、鉄道駅以外の各種施設に入場するための入場券を別見出しにて説明する。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q551800"/>
-    <ns3:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Nyujouken_tokyo.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/入場券"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Ticket_(admission)"/>
-    <rdfs:label>入場券</rdfs:label>
-  </ns1:Keyword>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/岐阜市">
-    <rdfs:label>岐阜市</rdfs:label>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Gifu_montage.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q45798"/>
-    <ns3:description xml:lang="ja">岐阜市（ぎふし）は、岐阜県の中南部に位置する中核市で、同県の県庁所在地である。旧稲葉郡・山県郡・本巣郡・羽島郡。戦国時代には金華山の麓の旧岐阜町が斎藤道三や織田信長の城下町として栄え、江戸時代には南部の旧加納町が中山道加納宿の宿場町、加納藩の城下町として栄えた。</ns3:description>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Gifu,_Gifu"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/岐阜市"/>
-  </ns1:Place>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/内国通運会社">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q1993298"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/日本通運"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Nippon_Express"/>
-    <ns3:description xml:lang="ja">日本通運株式会社（にっぽんつううん、Nippon Express Co., Ltd.）は、大手物流業者である。総合物流国内最大手で、業界唯一の災害対策基本法における指定公共機関。通称は「日通」「NIPPON EXPRESS」など。</ns3:description>
-    <rdfs:label>日本通運</rdfs:label>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Nippon_Express_Co.,_Ltd._logo.png?width=300"/>
-  </ns1:Organization>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/商標">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q167270"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia-logo-v2.svg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Trademark"/>
-    <rdfs:label>商標</rdfs:label>
-    <ns3:description xml:lang="ja">商標（しょうひょう）とは、商品を購入し、あるいは役務（サービス）の提供を受ける需要者が、その商品や役務の出所（誰が提供しているか）を認識可能とするために使用される標識（文字、図形、記号、立体的形状など）をいい、商品の販売に際しては商品または商品の包装、役務の提供に際しては、役務の提供に使用される物や電磁的方法により行う映像面に付して使用する。需要者は、標章を知覚することによって商品や役務の出所を認識し、購入したい商品、または提供を受けたい役務を選択することができる。商品の販売や役務の提供を継続すると、使用されるブランドは需要者に広く知られることとなり、商品の品質や役務の質が一定以上のものであれば、業務上の信用力（ブランド）が化体し、財産的価値が備わるようになる。この財産的価値は、特許権や著作権にならぶ知的財産権の一つと位置づけられ、条約や法律による保護対象となっている。これにより産業の発達に寄与し、あわせて需要者の利益を保護することができる。 日本における商標権の法的な点 - 日本の商標制度 登録商標・商標登録について - 日本の商標制度#商標の登録と用語</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/商標"/>
-  </ns1:Keyword>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/手紙">
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/手紙"/>
-    <ns3:description xml:lang="ja">手紙（てがみ）とは、特定の相手に対して情報を伝達するための文書のこと。信書（しんしょ）、書簡・書翰（しょかん）、書状（しょじょう）などとも呼ばれる。古くは消息（しょうそく、しょうそこ）、尺牘（せきとく）とも呼ばれた。広義には封書（封筒に入れて送る書状）、はがき（封筒に入れずに送る書状）、特定の人に向けて回覧する紙片の全般を含むが、狭義には封書のみを指して用いることも多い。英語では封書を意味する"letter"、あるいは郵便物を意味する"mail"をあてるのが一般的である。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q133492"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Letter_(message)"/>
-    <rdfs:label>手紙</rdfs:label>
-  </ns1:Type>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/大日本水産会">
-    <ns3:description xml:lang="ja">一般社団法人大日本水産会（だいにほんすいさんかい、Japan Fisheries Association）は、1882年（明治15年）設立で、水産業に関係する生産者、加工業者、流通業者、小売販売会社など、約400の会員で構成される業界団体。元農林水産省所管。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11435732"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/大日本水産会"/>
-    <rdfs:label>大日本水産会</rdfs:label>
-  </ns1:Organization>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/東京学士会院">
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/東京学士会院"/>
-    <ns3:description xml:lang="ja">東京学士会院（とうきょうがくしかいいん）は、大日本帝国にかつて存在した官公庁の一つ。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11524752"/>
-    <rdfs:label>東京学士会院</rdfs:label>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Imperial_Seal_of_Japan.svg?width=300"/>
-  </ns1:Organization>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/熨斗">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Noshi.gif?width=300"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/熨斗"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Noshi"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q1511688"/>
-    <rdfs:label>熨斗</rdfs:label>
-    <ns3:description xml:lang="ja">熨斗（のし）とは、一般的には慶事における進物や贈答品に添える飾りである。ただし、元来長寿を表す鮑が使われていたため、お見舞いなどには熨斗を使う場合もある。現在では黄色い紙を長六角形の色紙で包んだ形状をしているものが多く使われる。祝儀袋等の表面に印刷された、簡略化されたものもある。しばしば水引と併用される。なお、漢語「熨斗」は「ユンドウ」とも読み、「熨（熱でしわをのばす）」＋「斗（ひしゃく）」、即ち、昔のアイロンである火熨斗（ひのし）を指す。現代中国語でも、熨斗はアイロンを意味する。</ns3:description>
-  </ns1:Type>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/マッチラベル">
-    <ns3:description xml:lang="ja">マッチ（英: match、燐寸）は細く短い軸の先端に、発火性のある混合物（頭薬）をつけた、火をつけるための道具である。</ns3:description>
-    <rdfs:label>マッチ</rdfs:label>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Streichholz.JPG?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Match"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/マッチ"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q37507"/>
-  </ns1:Type>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/封筒">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q170124"/>
-    <rdfs:label>封筒</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/封筒"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Envelope"/>
-    <ns3:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Futo.JPG?width=300"/>
-    <ns3:description xml:lang="ja">封筒（ふうとう）とは、手紙・文書（もんじょ、ぶんしょ）・書付（かきつけ）などを封入する袋のこと。状袋（じょうぶくろ）ともいう。主に紙類を移送、受け渡し、保存する際に用いる袋である。郵便で手紙を送る際に便箋をこれに入れて封書とするほか、金融機関の現金封筒や給料袋や月謝袋として貨幣を入れたり、書類の受け渡しや保存に多く使われる。数え方としては、何も入っていなければ「枚」、中身が入っていると「封」になる。</ns3:description>
-  </ns1:Type>
-  <ns1:Agent rdf:about="https://kunshujo.web.app/api/chname/手島精一">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Seiichi_Tejima.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/手島精一"/>
-    <rdfs:label>手島精一</rdfs:label>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Seiichi_Tejima"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11497014"/>
-    <ns3:description xml:lang="ja">手島 精一（てじま せいいち、嘉永2年11月28日（1850年1月11日） - 大正7年（1918年）1月23日）は明治期の工業教育指導者。</ns3:description>
-  </ns1:Agent>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/全日本家禽協会">
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/全日本家禽協会"/>
+  </ns3:Keyword>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/名産">
+    <rdfs:label>名産</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/種袋">
+    <rdfs:label>種袋</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/全日本家禽協会">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11390163"/>
     <rdfs:label>全日本家禽協会</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11390163"/>
-    <ns3:description xml:lang="ja">全日本家禽協会（にほんかきんきょうかい）は、一般財団法人進化生物学研究所が運営する研究機関。</ns3:description>
-  </ns1:Organization>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/年賀状">
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/New_Year_card"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q3491001"/>
-    <ns3:description xml:lang="ja">年賀状（ねんがじょう）とは、新年に送られる郵便葉書やカードを用いたあいさつ状のことである。新年を祝う言葉をもってあいさつし、旧年中の厚誼の感謝と新しい年に変わらぬ厚情を依願する気持ちを、親しい相手への場合などには近況を添えることがある。日本では多く取り交わされ、日本に近い韓国、中国、台湾にも似た風習がある。これに対して、欧米などではクリスマス・カードやグリーティングカードで「新年のあいさつ」を済ませてしまうので、在外邦人を除き、年賀状の文化は無い。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/年賀状"/>
-    <rdfs:label>年賀状</rdfs:label>
-    <ns3:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/街頭・年賀状販売_(2006年).jpg?width=300"/>
-  </ns1:Type>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/領収書">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q330190"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/領収書"/>
-    <ns3:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Receipt_JPY.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Receipt"/>
-    <ns3:description xml:lang="ja">領収書（りょうしゅうしょ、英: receipt）は、代金の受取人が支払者に対して、何らかの対価として金銭を受け取ったことを証明するために発行する書類のこと。領収書を英語でいうと、レシートとなるが、日本語で"レシート"と言うとキャッシュレジスターから印字されたレジ・シートのことを指し、手書きなどで領収書の書式に記載された”領収書”と使い分けることが多い。</ns3:description>
-    <rdfs:label>領収書</rdfs:label>
-  </ns1:Type>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/褒状">
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Medals_of_Honor_(Japan)"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/全日本家禽協会"/>
+    <ns2:description xml:lang="ja">全日本家禽協会（にほんかきんきょうかい）は、一般財団法人進化生物学研究所が運営する研究機関。</ns2:description>
+  </ns3:Organization>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/褒状">
     <rdfs:label>褒章</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/褒章"/>
-    <ns3:description xml:lang="ja">褒章（ほうしょう）とは、社会や公共の福祉、文化などに貢献した者を顕彰する日本の栄典の一つ。対象となる事績により、紅綬褒章、緑綬褒章、黄綬褒章、紫綬褒章、藍綬褒章、紺綬褒章の6種類がある。英訳名は、褒章全体が“Medals of Honour”であり、各章はそれぞれ、“Medal with Red Ribbon”、“Medal with Green Ribbon”、“Medal with Yellow Ribbon”、“Medal with Purple Ribbon”、“Medal with Blue Ribbon”、“Medal with Dark Blue Ribbon”である。日本政府による英訳では、勲章は“order”であり、褒章は記章（記念章および従軍記章）と同様に“medal”とされている。欧米で日本の勲章、褒章および記章に相当するものには、英語で“order”、“decoration”、“Cross”、“medal”と名付けられたものがある。しかし、日本と欧米ではこれら“勲章等”（勲章等着用規程（昭和39年4月28日総理府告示第16号）第1条）の分け方が異なっており、日本には無い“Cross”の扱いは区々であり、“medal”と称されるものの一部は記章ではなく勲章とされることもある。一方、日本の法令上は、他国の褒章に相当するものは記章として扱われる（勲章等着用規程（昭和39年4月28日総理府告示第16号）第11条第1項4号）。</ns3:description>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Mitsuru_Sakurai_20121113_1.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q1300246"/>
-  </ns1:Keyword>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/専売特許">
-    <ns3:description xml:lang="ja">特許（とっきょ、英: Patent、パテント）とは、法令の定める手続により、国が発明者またはその承継人に対し、特許権を付与する行政行為。</ns3:description>
-    <rdfs:label>特許</rdfs:label>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Patent"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q253623"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/特許"/>
-  </ns1:Keyword>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/京都">
-    <ns3:description xml:lang="ja">京都（きょうと、みやこ、きょうのみやこ、英: Kyōto）は、日本の都市の1つである。都、京とも言い、歴史的には794年に日本の首都に定められた都城・平安京で、当時は日本の政治・文化の中心地であった。</ns3:description>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Location_KyotoJapan.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q740246"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/京都"/>
-    <rdfs:label>京都</rdfs:label>
-  </ns1:Place>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/印">
-    <rdfs:label>印</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q7253322"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/印"/>
-  </ns1:Type>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/読売新聞">
-    <rdfs:label>読売新聞</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/読売新聞"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Yomiuri_Shimbun"/>
-    <ns3:description xml:lang="ja">読売新聞（よみうりしんぶん、新聞の題字及び漢字制限前の表記は讀賣新聞、英語：Yomiuri Shimbun）は、株式会社読売新聞東京本社、株式会社読売新聞大阪本社及び株式会社読売新聞西部本社が発行する世界最多の発行部数を有する新聞である。2014年上半期の販売部数は朝刊が約956万部、夕刊が約321万部（日本ABC協会調べ）で世界最多（かつてはソ連共産党機関紙・プラウダ）。題号は、江戸時代に瓦版を読みながら売っていた「読売」に由来する。</ns3:description>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Yomiuri_Shimbun_first_issue.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q645218"/>
-  </ns1:Keyword>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/日本美術協会">
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Medals_of_Honor_(Japan)"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Mitsuru_Sakurai_20121113_1.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/褒章"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q1300246"/>
+    <ns2:description xml:lang="ja">褒章（ほうしょう）とは、社会や公共の福祉、文化などに貢献した者を顕彰する日本の栄典の一つ。対象となる事績により、紅綬褒章、緑綬褒章、黄綬褒章、紫綬褒章、藍綬褒章、紺綬褒章の6種類がある。英訳名は、褒章全体が“Medals of Honour”であり、各章はそれぞれ、“Medal with Red Ribbon”、“Medal with Green Ribbon”、“Medal with Yellow Ribbon”、“Medal with Purple Ribbon”、“Medal with Blue Ribbon”、“Medal with Dark Blue Ribbon”である。日本政府による英訳では、勲章は“order”であり、褒章は記章（記念章および従軍記章）と同様に“medal”とされている。欧米で日本の勲章、褒章および記章に相当するものには、英語で“order”、“decoration”、“Cross”、“medal”と名付けられたものがある。しかし、日本と欧米ではこれら“勲章等”（勲章等着用規程（昭和39年4月28日総理府告示第16号）第1条）の分け方が異なっており、日本には無い“Cross”の扱いは区々であり、“medal”と称されるものの一部は記章ではなく勲章とされることもある。一方、日本の法令上は、他国の褒章に相当するものは記章として扱われる（勲章等着用規程（昭和39年4月28日総理府告示第16号）第11条第1項4号）。</ns2:description>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/手紙">
+    <rdfs:label>手紙</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/手紙"/>
+    <ns2:description xml:lang="ja">手紙（てがみ）とは、特定の相手に対して情報を伝達するための文書のこと。信書（しんしょ）、書簡・書翰（しょかん）、書状（しょじょう）などとも呼ばれる。古くは消息（しょうそく、しょうそこ）、尺牘（せきとく）とも呼ばれた。広義には封書（封筒に入れて送る書状）、はがき（封筒に入れずに送る書状）、特定の人に向けて回覧する紙片の全般を含むが、狭義には封書のみを指して用いることも多い。英語では封書を意味する"letter"、あるいは郵便物を意味する"mail"をあてるのが一般的である。</ns2:description>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Letter_(message)"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q133492"/>
+  </ns3:Type>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/穴山篤太郎">
+    <ns2:description xml:lang="ja">有隣堂創業。号、竹史。郡山出身。明治7年(1874)有隣堂を創業。農業書・養蚕書を主とする殖産興業書を出版し、業界が未分化の時代で当時の他の出版社と同様に、書店・古本屋・取次店を兼ねていた。</ns2:description>
+    <rdfs:label>穴山篤太郎</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104700585"/>
+  </ns3:Agent>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/内国通運会社">
+    <ns2:description xml:lang="ja">日本通運株式会社（にっぽんつううん、Nippon Express Co., Ltd.）は、大手物流業者である。総合物流国内最大手で、業界唯一の災害対策基本法における指定公共機関。通称は「日通」「NIPPON EXPRESS」など。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Nippon_Express_Co.,_Ltd._logo.png?width=300"/>
+    <rdfs:label>日本通運</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/日本通運"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Nippon_Express"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q1993298"/>
+  </ns3:Organization>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/書状">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/手紙"/>
+    <rdfs:label>手紙</rdfs:label>
+    <ns2:description xml:lang="ja">手紙（てがみ）とは、特定の相手に対して情報を伝達するための文書のこと。信書（しんしょ）、書簡・書翰（しょかん）、書状（しょじょう）などとも呼ばれる。古くは消息（しょうそく、しょうそこ）、尺牘（せきとく）とも呼ばれた。広義には封書（封筒に入れて送る書状）、はがき（封筒に入れずに送る書状）、特定の人に向けて回覧する紙片の全般を含むが、狭義には封書のみを指して用いることも多い。英語では封書を意味する"letter"、あるいは郵便物を意味する"mail"をあてるのが一般的である。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q133492"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Letter_(message)"/>
+  </ns3:Type>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/日本美術協会">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/日本美術協会"/>
     <rdfs:label>日本美術協会</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11508881"/>
-    <ns3:description xml:lang="ja">公益財団法人日本美術協会（にほんびじゅつきょうかい）は、日本の美術団体。1879年（明治12年）に結成された龍池会を前身とする。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/日本美術協会"/>
-  </ns1:Organization>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/紙巻きたばこ">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Cigarette.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/紙巻きたばこ"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11508881"/>
+    <ns2:description xml:lang="ja">公益財団法人日本美術協会（にほんびじゅつきょうかい）は、日本の美術団体。1879年（明治12年）に結成された龍池会を前身とする。</ns2:description>
+  </ns3:Organization>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/健全社">
+    <rdfs:label>健全社</rdfs:label>
+  </ns3:Organization>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/専売特許">
+    <rdfs:label>特許</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/特許"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q253623"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Patent"/>
+    <ns2:description xml:lang="ja">特許（とっきょ、英: Patent、パテント）とは、法令の定める手続により、国が発明者またはその承継人に対し、特許権を付与する行政行為。</ns2:description>
+  </ns3:Keyword>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/紙巻きたばこ">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/紙巻きたばこ"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Cigarette.jpg?width=300"/>
     <rdfs:label>紙巻きたばこ</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q1578"/>
-    <ns3:description xml:lang="ja">紙巻きたばこ（かみまきたばこ）とは、刻んだタバコの葉を紙で巻いてあるたばこのことである。シガレット（英: cigarette）とも呼ばれる。パイプなどと違い他の喫煙器具を要せず、着火装置さえあればたばこ単体でそのまま喫煙可能なように加工されているため広く普及しており、特に日本では単に「たばこ」と言えば紙巻きたばこを指す事が殆どである。なお、たばこ全体に係る内容については、喫煙の項を参照。</ns3:description>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Cigarette"/>
-  </ns1:Keyword>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/羊羹">
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Youkan_001.jpg?width=300"/>
-    <ns3:description xml:lang="ja">羊羹（ようかん）は、一般には小豆を主体とした餡を型（羊羹舟）に流し込み寒天で固めた和菓子である。 寒天の添加量が多くしっかりとした固さの煉羊羹（ねりようかん）と、寒天が少なく柔らかい水羊羹（みずようかん）がある。また、寒天で固めるのではなく、小麦粉や葛粉を加えて蒸し固める製法もあり、これは蒸し羊羹と呼ばれる。単に「羊羹」と称した場合は煉羊羹を指す事がある。煉羊羹は糖度が高いので、真空パックなどの適切な状態であれば常温で一年以上の長期保存が可能なものが多い。この特徴を生かして非常食としても販売されているものもある。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/羊羹"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Yōkan"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q559408"/>
-    <rdfs:label>羊羹</rdfs:label>
-  </ns1:Keyword>
-  <ns1:Agent rdf:about="https://kunshujo.web.app/api/chname/大隈重信">
-    <rdfs:label>大隈重信</rdfs:label>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Shigenobu_Okuma_5.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q243141"/>
-    <ns3:description xml:lang="ja">大隈 重信（おおくま しげのぶ、天保9年2月16日（1838年3月11日） - 大正11年（1922年）1月10日）は、日本の武士（佐賀藩士）、政治家、教育者。位階勲等爵位は従一位大勲位侯爵。政治家としては参議兼大蔵卿、外務大臣（第3・4・10・13・28代）、農商務大臣（第11代）、内閣総理大臣（第8・17代）、内務大臣（第30・32代）、貴族院議員などを歴任した。早稲田大学の創設者であり、初代総長である。</ns3:description>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Ōkuma_Shigenobu"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/大隈重信"/>
-  </ns1:Agent>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/貴族院">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q10855638"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/貴族院"/>
-    <rdfs:label>貴族院</rdfs:label>
-  </ns1:Keyword>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/龍池会">
-    <rdfs:label>龍池会</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11679271"/>
-    <ns3:description xml:lang="ja">龍池会（りゅうちかい）は、明治時代初期の美術団体。「竜池会」と書かれる場合もある。明治20年（1887年）に「日本美術協会」（にほんびじゅつきょうかい）へと改称した（日本美術協会は現在も存続している）。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/龍池会"/>
-  </ns1:Organization>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/広告">
-    <rdfs:label>広告</rdfs:label>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/えちご屋広告チラシ.JPG?width=300"/>
-    <ns3:description xml:lang="ja">広告（こうこく、英語：advertisement）は、宣伝活動の一つであるが、広告であるためには以下の3条件が整っていなければならないというのが国際的に見た広告の定義である。アメリカマーケティング協会やアメリカの多くの研究者の定義を踏まえて定義づけたものがある。「広告とは、非人的メッセージの中に明示された広告主が所定の人々を対象にし、広告目的を達成するために行なう商品・サービスさらにはアイデア（考え方、方針、意見などを意味する）についての情報伝播活動であり、その情報は広告主の管理可能な広告媒体を通じて広告市場に流されるものである。広告には企業の広告目的の遂行はもとより、消費者または利用者の満足化、さらには社会的・経済的福祉の増大化などの機能をも伴うことになる。企業の他に、非営利機関、個人などが広告主となる場合もある。」というものである。広告のカテゴリーとなる3条件は、1.管理可能な広告媒体（広告主が宣伝しようとする場合、新聞記事やテレビ番組に取り上げてもらう管理不可能なパブリシティと区別するためである）、2.非人的メッセージ、3.明示された広告主 (advertiser) が行うということである。↑</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q37038"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/広告"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Advertising"/>
-  </ns1:Type>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/葉書">
-    <ns3:description xml:lang="ja">はがき（葉書、端書）は、手紙の形態の一つ。郵便葉書の略。郵便約款で定められた規格・様式に基づき、郵便料金を示す証票が印刷された通信用紙（官製はがき）およびこれを基準として作られた、切手を貼って出す通信用紙（私製はがき）。宛先と本文を一枚の厚めの紙（サイズは官製はがきで100.0mm×148.0mm）に書いて、封筒に入れずにそのまま送付する。英語ではPostCardまたはPostal Card。フランス語ではCarte Postale。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q192425"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Prefect_Office_Nagasaki.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Postcard"/>
-    <rdfs:label>はがき</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/はがき"/>
-  </ns1:Type>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/華族会館">
-    <rdfs:label>霞会館</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11660821"/>
-    <ns3:description xml:lang="ja">一般社団法人霞会館（かすみかいかん）は、戦前の華族会館を前身とし、1947年（昭和22年）の華族制度の廃止により、霞会館と名称を改めた。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/霞会館"/>
-  </ns1:Organization>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/菓子">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q5200157"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/菓子"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Disambig_gray.svg?width=300"/>
-    <ns3:description xml:lang="ja">菓子（かし）は、甘味や塩味など味覚強調し、あるいは食感など触覚に工夫し、各種の匂いで嗅覚など食味感覚の嗜好品として製造、調理された食品。一般に穀類の粉を練り焼くあるいは蒸すなどしたビスケットや饅頭、糖質を主体としたキャンディやチョコレート類、アイスクリームなどの冷凍菓子などを総合し、菓子と分類されている。近代になり冷凍冷蔵技術の向上と大量生産を可能にする工業化が進んだ事で、菓子の種類と生産量は飛躍的に増えた。これにより菓子製造販売は、旧来の職人が手作りして専門菓子店（和菓子店・洋菓子店・煎餅店等）で小売りするといった形態の他、工場生産された包装済みの菓子が小売店（スーパーマーケットやドラッグストア等）で販売されるという形態が定着した。主に品質が均一で安価な商品は工場で生産し、手間のかかる高品質な物や流通の困難な商品は専門菓子店が製造するといった棲み分けが定着されてきている。なお、日本では食品衛生法および乳等省令により、アイスクリームなどは一般食品である菓子ではなく、乳製品として分類されている。また、果実を乾燥させたり砂糖漬けにしたものや、焼き芋や煎り豆などに代表される農産物を単純に加工したものは菓子製造と見なされない場合が多いが、一方でポテトチップやポップコーンに関してはスナック菓子として扱われている。</ns3:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q1578"/>
+    <ns2:description xml:lang="ja">紙巻きたばこ（かみまきたばこ）とは、刻んだタバコの葉を紙で巻いてあるたばこのことである。シガレット（英: cigarette）とも呼ばれる。パイプなどと違い他の喫煙器具を要せず、着火装置さえあればたばこ単体でそのまま喫煙可能なように加工されているため広く普及しており、特に日本では単に「たばこ」と言えば紙巻きたばこを指す事が殆どである。なお、たばこ全体に係る内容については、喫煙の項を参照。</ns2:description>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Cigarette"/>
+  </ns3:Keyword>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/岐阜市">
+    <rdfs:label>岐阜市</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Gifu_montage.jpg?width=300"/>
+    <ns2:description xml:lang="ja">岐阜市（ぎふし）は、岐阜県の中南部に位置する中核市で、同県の県庁所在地である。旧稲葉郡・山県郡・本巣郡・羽島郡。戦国時代には金華山の麓の旧岐阜町が斎藤道三や織田信長の城下町として栄え、江戸時代には南部の旧加納町が中山道加納宿の宿場町、加納藩の城下町として栄えた。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q45798"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/岐阜市"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Gifu,_Gifu"/>
+  </ns3:Place>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/佐野常民">
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tsunetami_Sano.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q555055"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/佐野常民"/>
+    <ns2:description xml:lang="ja">佐野 常民（さの つねたみ、1823年2月8日（文政5年12月28日） - 1902年（明治35年）12月7日）は、日本の武士（佐賀藩士）、政治家。日本赤十字社の創始者。官職は枢密顧問官、農商務大臣、大蔵卿、元老院議長。勲等は勲一等。爵位は伯爵。称号は日本赤十字社名誉社員。佐賀の七賢人に挙げられている。名は栄寿、栄寿左衛門。子は佐野常羽。</ns2:description>
+    <rdfs:label>佐野常民</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Sano_Tsunetami"/>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/入場券">
+    <ns2:description xml:lang="ja">入場券（にゅうじょうけん）とは、切符の一種で、入場に何らかの制限が加わっている施設において、その施設に入場するために必要となる切符のことである。本項では、鉄道駅に入場するための入場券と、鉄道駅以外の各種施設に入場するための入場券を別見出しにて説明する。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/入場券"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Ticket_(admission)"/>
+    <rdfs:label>入場券</rdfs:label>
+    <ns2:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Nyujouken_tokyo.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q551800"/>
+  </ns3:Keyword>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/行方庄助">
+    <rdfs:label>行方庄助</rdfs:label>
+  </ns3:Agent>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/守田宝丹"/>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/御菓子司">
     <rdfs:label>菓子</rdfs:label>
-  </ns1:Keyword>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/ラベル">
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Label"/>
-    <ns3:description xml:lang="ja">ラベル（英語: label、英語発音: [leibl]（レィブル）、En-us-label.ogg 聞く）とは、容器、箱等の包装物の表面に貼り付けるなどの方法で固定して、そのものの名称（品名）、製造者、販売者、食品の場合には原材料名等を記載するもの。日本語ではラベルと呼ぶことが多く、他にレッテル（オランダ語由来）、レーベルということもある。素材は、紙または合成樹脂が多い。保護や印刷のために、表面に特別な加工がなされたものも多い。裏面にすでに接着物質が塗布されたシールである場合が多く、小売店などではリール状の剥離紙に等間隔に貼り付けたれたラベルを、ハンドラベラーあるいはシールピーラーなどで個々の商品の上に値札として貼り付けることが多い。ただし、個別に糊付けするもの、包むような方法で、貼り付けせずに固定するもの（例えば、ペットボトルのラベル）、針金などでくくりつけるようなものもある。郵便物の表面に貼り付ける「宛名ラベル」、磁気的記録物の内容を表示するためにその本体やケースに貼り付けるラベルなども存在する。なお、ラベルは、その利用のされ方から、印刷や接着剤・粘着剤との関係が深い。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/ラベル"/>
-    <rdfs:label>ラベル</rdfs:label>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q845835"/>
-  </ns1:Type>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/風月堂">
-    <rdfs:label>凮月堂</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/凮月堂"/>
-  </ns1:Keyword>
-  <ns1:Agent rdf:about="https://kunshujo.web.app/api/chname/辻新次">
-    <rdfs:label>辻新次</rdfs:label>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Shinji_Tsuji.jpg?width=300"/>
-    <ns3:description xml:lang="ja">辻 新次（つじ しんじ、天保13年1月9日（1842年2月18日） - 大正4年（1915年）11月30日）は明治時代の日本の文部官僚。旧松本藩士。男爵。号は信松。信濃国松本出身。1866年（慶応2年）に開成所化学教授手伝並となり、明治に入ってからは大学助教、次いで大学南校校長となった。また1871年（明治4年）の文部省出仕以降は、学制取調掛、学校課長、地方学務局長、普通学務局長、初代文部次官を歴任。明治前半期のほとんどの教育制度策定にかかわったため、「文部省の辻か、辻の文部省か」と言われ、また「教育社会の第一の元老」、「明治教育界の元勲」などと評された。この間、明六社会員となり、大日本教育会（後に帝国教育会）、仏学会、伊学協会の各会長にも就任している。1892年（明治25年）の文部省退官後は貴族院勅選議員、高等教育会議議員、教育調査会委員に選ばれたほか、仁寿生命保険、諏訪電気、伊那電車軌道の社長を務めた。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/辻新次"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11638221"/>
-  </ns1:Agent>
-  <ns1:Agent rdf:about="https://kunshujo.web.app/api/chname/村田保">
-    <rdfs:label>村田保</rdfs:label>
-    <ns3:description xml:lang="ja">村田 保（むらた たもつ）は明治時代の法制官僚、政治家。幼名は虎之助。元老院議官、貴族院勅選議員、水産伝習所二代目所長、大日本水産会副総裁、大日本塩業協会初代会長、大日本缶詰業連合会初代会長。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/村田保"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tamotsu_Murata_1919.jpg?width=300"/>
-  </ns1:Agent>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/野菜">
-    <rdfs:label>野菜</rdfs:label>
-    <ns3:description xml:lang="ja">野菜（やさい、英: vegetable）は、食用の草本植物の総称。水分が多い草本性で食用となる植物を指す。主に葉や根、茎（地下茎を含む）、花・つぼみ・果実を副食として食べるものをいう。</ns3:description>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Vegetables.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Vegetable"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q11004"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/野菜"/>
-  </ns1:Keyword>
-  <ns1:Place rdf:about="https://kunshujo.web.app/api/place/偕楽園">
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Kairaku-en"/>
-    <ns3:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Kairakuen_bairin.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/偕楽園"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q71952"/>
-    <ns3:description xml:lang="ja">偕楽園（かいらくえん）は、日本の茨城県水戸市にある日本庭園である。国の史跡及び名勝に指定されており（指定名称は「常磐公園」）、隣接する千波湖周辺の拡張部を含めた「偕楽園公園」は、都市公園としてニューヨークのセントラルパークに次ぎ世界第2位の面積を持つ。また伝統的に、岡山市の後楽園や金沢市の兼六園と並んで日本三名園の一つに数えられてきた。現在、茨城県営の都市公園（広域公園）として管理・運営されている。</ns3:description>
-    <rdfs:label>偕楽園</rdfs:label>
-  </ns1:Place>
-  <ns1:Type rdf:about="https://kunshujo.web.app/api/type/団扇">
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/うちわ"/>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q1056134"/>
+    <ns2:description xml:lang="ja">菓子（かし）は、甘味や塩味など味覚強調し、あるいは食感など触覚に工夫し、各種の匂いで嗅覚など食味感覚の嗜好品として製造、調理された食品。一般に穀類の粉を練り焼くあるいは蒸すなどしたビスケットや饅頭、糖質を主体としたキャンディやチョコレート類、アイスクリームなどの冷凍菓子などを総合し、菓子と分類されている。近代になり冷凍冷蔵技術の向上と大量生産を可能にする工業化が進んだ事で、菓子の種類と生産量は飛躍的に増えた。これにより菓子製造販売は、旧来の職人が手作りして専門菓子店（和菓子店・洋菓子店・煎餅店等）で小売りするといった形態の他、工場生産された包装済みの菓子が小売店（スーパーマーケットやドラッグストア等）で販売されるという形態が定着した。主に品質が均一で安価な商品は工場で生産し、手間のかかる高品質な物や流通の困難な商品は専門菓子店が製造するといった棲み分けが定着されてきている。なお、日本では食品衛生法および乳等省令により、アイスクリームなどは一般食品である菓子ではなく、乳製品として分類されている。また、果実を乾燥させたり砂糖漬けにしたものや、焼き芋や煎り豆などに代表される農産物を単純に加工したものは菓子製造と見なされない場合が多いが、一方でポテトチップやポップコーンに関してはスナック菓子として扱われている。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Disambig_gray.svg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q5200157"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/菓子"/>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/団扇">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/うちわ"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Kuroda-seiki-kohan00-6-1b.jpeg?width=300"/>
+    <ns2:description xml:lang="ja">うちわ（団扇）とは、手で扇いで風を起こす道具の一種。一般的には扇部と手でそれを支持するための柄を備えるが、柄がなく扇部の端のくりぬいた部分に指を入れて用いる穴開きうちわもある。絵柄や文様にも様々な種類があり、広告を入れた簡易なものはペーパーファンともいい販促品として用いられている。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q1056134"/>
     <rdfs:label>うちわ</rdfs:label>
-    <ns3:description xml:lang="ja">うちわ（団扇）とは、手で扇いで風を起こす道具の一種。一般的には扇部と手でそれを支持するための柄を備えるが、柄がなく扇部の端のくりぬいた部分に指を入れて用いる穴開きうちわもある。絵柄や文様にも様々な種類があり、広告を入れた簡易なものはペーパーファンともいい販促品として用いられている。</ns3:description>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Kuroda-seiki-kohan00-6-1b.jpeg?width=300"/>
-  </ns1:Type>
-  <ns1:Organization rdf:about="https://kunshujo.web.app/api/org/三田育種場">
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q17212711"/>
-    <rdfs:label>三田育種場</rdfs:label>
-    <ns3:description xml:lang="ja">三田育種場（みたいくしゅじょう）は、1877年（明治10年）から1886年（明治19年）まで東京の三田（現在の港区芝）で営まれていた官営種苗会社。農産物の優良な種苗の普及に努めるほか、牛馬や農機具の改良も行われた。馬匹の改良の為に三田育種場内には競馬場も設けられ、そこで行われる競馬は上流階級を含む多くの観客を集めた。</ns3:description>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/三田育種場"/>
-  </ns1:Organization>
-  <ns1:Agent rdf:about="https://kunshujo.web.app/api/chname/徳川家達">
-    <rdfs:label>徳川家達</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/徳川家達"/>
-    <ns3:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa_Iesato.jpg?width=300"/>
-    <ns2:sameAs rdf:resource="http://dbpedia.org/resource/Tokugawa_Iesato"/>
-    <ns3:description xml:lang="ja">德川 家達（徳川 家達、とくがわ いえさと、1863年8月24日 - 1940年6月5日）は、徳川宗家の16代当主。もとは田安徳川家の7代当主で、静岡藩の初代藩主。幼名は亀之助といった。号は静岳。位階、勲等、爵位は従一位大勲位公爵。世間からは「十六代様」と呼ばれた。第4代から第8代までの貴族院議長、ワシントン軍縮会議全権大使、1940年東京オリンピックの組織委員会の委員長、第6代日本赤十字社社長、華族会館館長、学習院評議会議長、日米協会会長などを歴任した。大正期には組閣の大命も受けた（拝辞）。</ns3:description>
-    <ns2:sameAs rdf:resource="http://www.wikidata.org/entity/Q672741"/>
-  </ns1:Agent>
-  <ns1:Keyword rdf:about="https://kunshujo.web.app/api/keyword/内国勧業博覧会">
+  </ns3:Type>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/封筒">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/封筒"/>
+    <ns2:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Futo.JPG?width=300"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Envelope"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q170124"/>
+    <ns2:description xml:lang="ja">封筒（ふうとう）とは、手紙・文書（もんじょ、ぶんしょ）・書付（かきつけ）などを封入する袋のこと。状袋（じょうぶくろ）ともいう。主に紙類を移送、受け渡し、保存する際に用いる袋である。郵便で手紙を送る際に便箋をこれに入れて封書とするほか、金融機関の現金封筒や給料袋や月謝袋として貨幣を入れたり、書類の受け渡しや保存に多く使われる。数え方としては、何も入っていなければ「枚」、中身が入っていると「封」になる。</ns2:description>
+    <rdfs:label>封筒</rdfs:label>
+  </ns3:Type>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/葉書">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/はがき"/>
+    <ns2:description xml:lang="ja">はがき（葉書、端書）は、手紙の形態の一つ。郵便葉書の略。郵便約款で定められた規格・様式に基づき、郵便料金を示す証票が印刷された通信用紙（官製はがき）およびこれを基準として作られた、切手を貼って出す通信用紙（私製はがき）。宛先と本文を一枚の厚めの紙（サイズは官製はがきで100.0mm×148.0mm）に書いて、封筒に入れずにそのまま送付する。英語ではPostCardまたはPostal Card。フランス語ではCarte Postale。</ns2:description>
+    <rdfs:label>はがき</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Prefect_Office_Nagasaki.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Postcard"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q192425"/>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/印">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/印"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q7253322"/>
+    <rdfs:label>印</rdfs:label>
+  </ns3:Type>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/大阪市">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/大阪市"/>
+    <ns2:description xml:lang="ja">大阪市（おおさかし）は、日本の近畿地方（関西地方）、大阪府のほぼ中央に位置する市で、同府の府庁所在地である。政令指定都市に指定されている。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_montage.jpg?width=300"/>
+    <rdfs:label>大阪市</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Osaka"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q35765"/>
+  </ns3:Place>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/大隈重信">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/大隈重信"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q243141"/>
+    <rdfs:label>大隈重信</rdfs:label>
+    <ns2:description xml:lang="ja">大隈 重信（おおくま しげのぶ、天保9年2月16日（1838年3月11日） - 大正11年（1922年）1月10日）は、日本の武士（佐賀藩士）、政治家、教育者。位階勲等爵位は従一位大勲位侯爵。政治家としては参議兼大蔵卿、外務大臣（第3・4・10・13・28代）、農商務大臣（第11代）、内閣総理大臣（第8・17代）、内務大臣（第30・32代）、貴族院議員などを歴任した。早稲田大学の創設者であり、初代総長である。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Shigenobu_Okuma_5.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Ōkuma_Shigenobu"/>
+  </ns3:Agent>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/守田治兵衛">
+    <ns2:description xml:lang="ja">守田治兵衛（９代目）は、諱を祐孝（すけたか）、隠居後は静松園・長禄翁と号した。また守田宝丹とも自称している。つまり宝丹というのは、治兵衛の別号であり、また上野池之端仲町の「守田寶丹」という薬舗の屋号であり、また扱っていた商品名でもあった。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104699861"/>
+    <rdfs:label>守田治兵衛</rdfs:label>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/内国勧業博覧会">
     <rdfs:label>内国勧業博覧会</rdfs:label>
-    <ns2:sameAs rdf:resource="http://ja.dbpedia.org/resource/内国勧業博覧会"/>
-    <ns3:description xml:lang="ja">内国勧業博覧会とは、日本の明治時代に5回開かれた博覧会。名称通り国内の産業発展を促進し、魅力ある輸出品目育成を目的とした、政府主導の博覧会である。</ns3:description>
-  </ns1:Keyword>
+    <ns2:description xml:lang="ja">内国勧業博覧会とは、日本の明治時代に5回開かれた博覧会。名称通り国内の産業発展を促進し、魅力ある輸出品目育成を目的とした、政府主導の博覧会である。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/内国勧業博覧会"/>
+  </ns3:Keyword>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/関根太左衛門">
+    <rdfs:label>関根太左衛門</rdfs:label>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/羊羹">
+    <rdfs:label>羊羹</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Yōkan"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/羊羹"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Youkan_001.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q559408"/>
+    <ns2:description xml:lang="ja">羊羹（ようかん）は、一般には小豆を主体とした餡を型（羊羹舟）に流し込み寒天で固めた和菓子である。 寒天の添加量が多くしっかりとした固さの煉羊羹（ねりようかん）と、寒天が少なく柔らかい水羊羹（みずようかん）がある。また、寒天で固めるのではなく、小麦粉や葛粉を加えて蒸し固める製法もあり、これは蒸し羊羹と呼ばれる。単に「羊羹」と称した場合は煉羊羹を指す事がある。煉羊羹は糖度が高いので、真空パックなどの適切な状態であれば常温で一年以上の長期保存が可能なものが多い。この特徴を生かして非常食としても販売されているものもある。</ns2:description>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/地図">
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Map"/>
+    <rdfs:label>地図</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/1154_world_map_by_Moroccan_cartographer_al-Idrisi_for_king_Roger_of_Sicily.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q4006"/>
+    <ns2:description xml:lang="ja">地図（ちず）とは、地球などの地表、あるいは架空の世界の全部または特定の一部分を縮小表現したものである。「文化の総合的産物」ともいわれ、「文字よりも古いコミュニケーション手段」と称されることがあるように、表現手法として人類に重宝されてきた。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/地図"/>
+  </ns3:Type>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/偕楽園">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q71952"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/偕楽園"/>
+    <rdfs:label>偕楽園</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Kairaku-en"/>
+    <ns2:description xml:lang="ja">偕楽園（かいらくえん）は、日本の茨城県水戸市にある日本庭園である。国の史跡及び名勝に指定されており（指定名称は「常磐公園」）、隣接する千波湖周辺の拡張部を含めた「偕楽園公園」は、都市公園としてニューヨークのセントラルパークに次ぎ世界第2位の面積を持つ。また伝統的に、岡山市の後楽園や金沢市の兼六園と並んで日本三名園の一つに数えられてきた。現在、茨城県営の都市公園（広域公園）として管理・運営されている。</ns2:description>
+    <ns2:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Kairakuen_bairin.jpg?width=300"/>
+  </ns3:Place>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/野菜">
+    <rdfs:label>野菜</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11004"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Vegetable"/>
+    <ns2:description xml:lang="ja">野菜（やさい、英: vegetable）は、食用の草本植物の総称。水分が多い草本性で食用となる植物を指す。主に葉や根、茎（地下茎を含む）、花・つぼみ・果実を副食として食べるものをいう。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Vegetables.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/野菜"/>
+  </ns3:Keyword>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/案内状">
+    <rdfs:label>案内状</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/マッチラベル">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q37507"/>
+    <ns2:description xml:lang="ja">マッチ（英: match、燐寸）は細く短い軸の先端に、発火性のある混合物（頭薬）をつけた、火をつけるための道具である。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Streichholz.JPG?width=300"/>
+    <rdfs:label>マッチ</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Match"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/マッチ"/>
+  </ns3:Type>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/鹿鳴館">
+    <ns2:description xml:lang="ja">鹿鳴館（ろくめいかん）は、国賓や外国の外交官を接待するため、明治政府によって建てられた社交場である。鹿鳴館を中心にした外交政策を「鹿鳴館外交」、欧化主義が広まった明治10年代後半を「鹿鳴館時代」と呼ぶ。当時の極端に走った欧化政策を象徴する存在でもあった。建物は後に華族会館となり、1940年（昭和15年）に取壊された。</ns2:description>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Rokumeikan"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/鹿鳴館"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q1039219"/>
+    <rdfs:label>鹿鳴館</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Rokumeikan.jpg?width=300"/>
+  </ns3:Keyword>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/広告">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/広告"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Advertising"/>
+    <ns2:description xml:lang="ja">広告（こうこく、英語：advertisement）は、宣伝活動の一つであるが、広告であるためには以下の3条件が整っていなければならないというのが国際的に見た広告の定義である。アメリカマーケティング協会やアメリカの多くの研究者の定義を踏まえて定義づけたものがある。「広告とは、非人的メッセージの中に明示された広告主が所定の人々を対象にし、広告目的を達成するために行なう商品・サービスさらにはアイデア（考え方、方針、意見などを意味する）についての情報伝播活動であり、その情報は広告主の管理可能な広告媒体を通じて広告市場に流されるものである。広告には企業の広告目的の遂行はもとより、消費者または利用者の満足化、さらには社会的・経済的福祉の増大化などの機能をも伴うことになる。企業の他に、非営利機関、個人などが広告主となる場合もある。」というものである。広告のカテゴリーとなる3条件は、1.管理可能な広告媒体（広告主が宣伝しようとする場合、新聞記事やテレビ番組に取り上げてもらう管理不可能なパブリシティと区別するためである）、2.非人的メッセージ、3.明示された広告主 (advertiser) が行うということである。↑</ns2:description>
+    <rdfs:label>広告</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/えちご屋広告チラシ.JPG?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q37038"/>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/熨斗">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q1511688"/>
+    <ns2:description xml:lang="ja">熨斗（のし）とは、一般的には慶事における進物や贈答品に添える飾りである。ただし、元来長寿を表す鮑が使われていたため、お見舞いなどには熨斗を使う場合もある。現在では黄色い紙を長六角形の色紙で包んだ形状をしているものが多く使われる。祝儀袋等の表面に印刷された、簡略化されたものもある。しばしば水引と併用される。なお、漢語「熨斗」は「ユンドウ」とも読み、「熨（熱でしわをのばす）」＋「斗（ひしゃく）」、即ち、昔のアイロンである火熨斗（ひのし）を指す。現代中国語でも、熨斗はアイロンを意味する。</ns2:description>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Noshi"/>
+    <rdfs:label>熨斗</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Noshi.gif?width=300"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/熨斗"/>
+  </ns3:Type>
+  <ns3:Time rdf:about="https://kunshujo.web.app/api/time/1890-04">
+    <rdfs:label>1890-04</rdfs:label>
+  </ns3:Time>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/華族会館">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/霞会館"/>
+    <rdfs:label>霞会館</rdfs:label>
+    <ns2:description xml:lang="ja">一般社団法人霞会館（かすみかいかん）は、戦前の華族会館を前身とし、1947年（昭和22年）の華族制度の廃止により、霞会館と名称を改めた。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11660821"/>
+  </ns3:Organization>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/京都">
+    <ns2:description xml:lang="ja">京都（きょうと、みやこ、きょうのみやこ、英: Kyōto）は、日本の都市の1つである。都、京とも言い、歴史的には794年に日本の首都に定められた都城・平安京で、当時は日本の政治・文化の中心地であった。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/京都"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q740246"/>
+    <rdfs:label>京都</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Location_KyotoJapan.jpg?width=300"/>
+  </ns3:Place>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/明治美術会">
+    <rdfs:label>明治美術会</rdfs:label>
+    <ns2:description xml:lang="ja">明治美術会（めいじびしゅつかい）は、明治22年（1889年）に発足した日本国最初の洋風美術団体である。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11512399"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/明治美術会"/>
+  </ns3:Organization>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/読売新聞">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q645218"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/読売新聞"/>
+    <rdfs:label>読売新聞</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Yomiuri_Shimbun_first_issue.jpg?width=300"/>
+    <ns2:description xml:lang="ja">読売新聞（よみうりしんぶん、新聞の題字及び漢字制限前の表記は讀賣新聞、英語：Yomiuri Shimbun）は、株式会社読売新聞東京本社、株式会社読売新聞大阪本社及び株式会社読売新聞西部本社が発行する世界最多の発行部数を有する新聞である。2014年上半期の販売部数は朝刊が約956万部、夕刊が約321万部（日本ABC協会調べ）で世界最多（かつてはソ連共産党機関紙・プラウダ）。題号は、江戸時代に瓦版を読みながら売っていた「読売」に由来する。</ns2:description>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Yomiuri_Shimbun"/>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/領収書">
+    <ns2:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Receipt_JPY.jpg?width=300"/>
+    <ns2:description xml:lang="ja">領収書（りょうしゅうしょ、英: receipt）は、代金の受取人が支払者に対して、何らかの対価として金銭を受け取ったことを証明するために発行する書類のこと。領収書を英語でいうと、レシートとなるが、日本語で"レシート"と言うとキャッシュレジスターから印字されたレジ・シートのことを指し、手書きなどで領収書の書式に記載された”領収書”と使い分けることが多い。</ns2:description>
+    <rdfs:label>領収書</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Receipt"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q330190"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/領収書"/>
+  </ns3:Type>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/手島精一">
+    <rdfs:label>手島精一</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Seiichi_Tejima"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/手島精一"/>
+    <ns2:description xml:lang="ja">手島 精一（てじま せいいち、嘉永2年11月28日（1850年1月11日） - 大正7年（1918年）1月23日）は明治期の工業教育指導者。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Seiichi_Tejima.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11497014"/>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/菓子">
+    <rdfs:label>菓子</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/菓子"/>
+    <ns2:description xml:lang="ja">菓子（かし）は、甘味や塩味など味覚強調し、あるいは食感など触覚に工夫し、各種の匂いで嗅覚など食味感覚の嗜好品として製造、調理された食品。一般に穀類の粉を練り焼くあるいは蒸すなどしたビスケットや饅頭、糖質を主体としたキャンディやチョコレート類、アイスクリームなどの冷凍菓子などを総合し、菓子と分類されている。近代になり冷凍冷蔵技術の向上と大量生産を可能にする工業化が進んだ事で、菓子の種類と生産量は飛躍的に増えた。これにより菓子製造販売は、旧来の職人が手作りして専門菓子店（和菓子店・洋菓子店・煎餅店等）で小売りするといった形態の他、工場生産された包装済みの菓子が小売店（スーパーマーケットやドラッグストア等）で販売されるという形態が定着した。主に品質が均一で安価な商品は工場で生産し、手間のかかる高品質な物や流通の困難な商品は専門菓子店が製造するといった棲み分けが定着されてきている。なお、日本では食品衛生法および乳等省令により、アイスクリームなどは一般食品である菓子ではなく、乳製品として分類されている。また、果実を乾燥させたり砂糖漬けにしたものや、焼き芋や煎り豆などに代表される農産物を単純に加工したものは菓子製造と見なされない場合が多いが、一方でポテトチップやポップコーンに関してはスナック菓子として扱われている。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Disambig_gray.svg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q5200157"/>
+  </ns3:Keyword>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/三田育種場">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/三田育種場"/>
+    <ns2:description xml:lang="ja">三田育種場（みたいくしゅじょう）は、1877年（明治10年）から1886年（明治19年）まで東京の三田（現在の港区芝）で営まれていた官営種苗会社。農産物の優良な種苗の普及に努めるほか、牛馬や農機具の改良も行われた。馬匹の改良の為に三田育種場内には競馬場も設けられ、そこで行われる競馬は上流階級を含む多くの観客を集めた。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q17212711"/>
+    <rdfs:label>三田育種場</rdfs:label>
+  </ns3:Organization>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/徳川家達">
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Tokugawa_Iesato"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/徳川家達"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q672741"/>
+    <ns2:description xml:lang="ja">德川 家達（徳川 家達、とくがわ いえさと、1863年8月24日 - 1940年6月5日）は、徳川宗家の16代当主。もとは田安徳川家の7代当主で、静岡藩の初代藩主。幼名は亀之助といった。号は静岳。位階、勲等、爵位は従一位大勲位公爵。世間からは「十六代様」と呼ばれた。第4代から第8代までの貴族院議長、ワシントン軍縮会議全権大使、1940年東京オリンピックの組織委員会の委員長、第6代日本赤十字社社長、華族会館館長、学習院評議会議長、日米協会会長などを歴任した。大正期には組閣の大命も受けた（拝辞）。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa_Iesato.jpg?width=300"/>
+    <rdfs:label>徳川家達</rdfs:label>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/商標">
+    <rdfs:label>商標</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/商標"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Trademark"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia-logo-v2.svg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q167270"/>
+    <ns2:description xml:lang="ja">商標（しょうひょう）とは、商品を購入し、あるいは役務（サービス）の提供を受ける需要者が、その商品や役務の出所（誰が提供しているか）を認識可能とするために使用される標識（文字、図形、記号、立体的形状など）をいい、商品の販売に際しては商品または商品の包装、役務の提供に際しては、役務の提供に使用される物や電磁的方法により行う映像面に付して使用する。需要者は、標章を知覚することによって商品や役務の出所を認識し、購入したい商品、または提供を受けたい役務を選択することができる。商品の販売や役務の提供を継続すると、使用されるブランドは需要者に広く知られることとなり、商品の品質や役務の質が一定以上のものであれば、業務上の信用力（ブランド）が化体し、財産的価値が備わるようになる。この財産的価値は、特許権や著作権にならぶ知的財産権の一つと位置づけられ、条約や法律による保護対象となっている。これにより産業の発達に寄与し、あわせて需要者の利益を保護することができる。 日本における商標権の法的な点 - 日本の商標制度 登録商標・商標登録について - 日本の商標制度#商標の登録と用語</ns2:description>
+  </ns3:Keyword>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/明治会堂">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11512302"/>
+    <rdfs:label>明治会堂</rdfs:label>
+    <ns2:description xml:lang="ja">明治會堂（めいじかいどう）は、福澤諭吉と慶應義塾（現・慶應義塾大学）の政治結社グループにより建築された政談演説公会堂。明治17年（1884年）に「厚生館（こうせいかん）」へと名称が変わり、「木挽町厚生館」として知られた。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Meiji_Kaido_in_Kobikicho.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/明治会堂"/>
+  </ns3:Organization>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/村田保">
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tamotsu_Murata_1919.jpg?width=300"/>
+    <ns2:description xml:lang="ja">村田 保（むらた たもつ）は明治時代の法制官僚、政治家。幼名は虎之助。元老院議官、貴族院勅選議員、水産伝習所二代目所長、大日本水産会副総裁、大日本塩業協会初代会長、大日本缶詰業連合会初代会長。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/村田保"/>
+    <rdfs:label>村田保</rdfs:label>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/領収書">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/領収書"/>
+    <ns2:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/Receipt_JPY.jpg?width=300"/>
+    <ns2:description xml:lang="ja">領収書（りょうしゅうしょ、英: receipt）は、代金の受取人が支払者に対して、何らかの対価として金銭を受け取ったことを証明するために発行する書類のこと。領収書を英語でいうと、レシートとなるが、日本語で"レシート"と言うとキャッシュレジスターから印字されたレジ・シートのことを指し、手書きなどで領収書の書式に記載された”領収書”と使い分けることが多い。</ns2:description>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Receipt"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q330190"/>
+    <rdfs:label>領収書</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/三重県">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/三重県"/>
+    <ns2:description xml:lang="ja">三重県（みえけん）は、日本の都道府県の一つで、日本最大の半島である紀伊半島の東側に位置する。県庁所在地は県中部の津市。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Naiku_05.jpg?width=300"/>
+    <rdfs:label>三重県</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q128196"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Mie_Prefecture"/>
+  </ns3:Place>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/東京学士会院">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/東京学士会院"/>
+    <rdfs:label>東京学士会院</rdfs:label>
+    <ns2:description xml:lang="ja">東京学士会院（とうきょうがくしかいいん）は、大日本帝国にかつて存在した官公庁の一つ。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Imperial_Seal_of_Japan.svg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11524752"/>
+  </ns3:Organization>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/大日本山林会">
+    <rdfs:label>大日本山林会</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q17996103"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/大日本山林会"/>
+    <ns2:description xml:lang="ja">公益社団法人大日本山林会（だいにっぽんさんりんかい、英語：The Japan Forestry Association）は、国内外の森林・林業の発展を図ることを目的とする公益社団法人である。旧主務官庁は農林水産省。</ns2:description>
+  </ns3:Organization>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/訃報">
+    <rdfs:label>訃報</rdfs:label>
+  </ns3:Type>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/宝丹本舗">
+    <rdfs:label>宝丹本舗</rdfs:label>
+  </ns3:Organization>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/鳳文館">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104700084"/>
+    <rdfs:label>鳳文館</rdfs:label>
+    <ns2:description xml:lang="ja">前田黙鳳が1882年、京橋南鍋町に設立した書肆</ns2:description>
+  </ns3:Organization>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/米津松造">
+    <rdfs:label>米津松造</rdfs:label>
+  </ns3:Agent>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/渡部儀兵衛">
+    <rdfs:label>渡部儀兵衛在哉</rdfs:label>
+    <ns2:description xml:lang="ja">『庄内金工名譜』には、「称儀兵衛。初メ珍久門。後、初代安親門。寛保二年四月死。享年八十二歳。清成・宜時同時ノ人」とあって、鶴岡市与力町の大昌寺に過去帳が現存する。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104700715"/>
+  </ns3:Agent>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/広告">
+    <ns2:description xml:lang="ja">広告（こうこく、英語：advertisement）は、宣伝活動の一つであるが、広告であるためには以下の3条件が整っていなければならないというのが国際的に見た広告の定義である。アメリカマーケティング協会やアメリカの多くの研究者の定義を踏まえて定義づけたものがある。「広告とは、非人的メッセージの中に明示された広告主が所定の人々を対象にし、広告目的を達成するために行なう商品・サービスさらにはアイデア（考え方、方針、意見などを意味する）についての情報伝播活動であり、その情報は広告主の管理可能な広告媒体を通じて広告市場に流されるものである。広告には企業の広告目的の遂行はもとより、消費者または利用者の満足化、さらには社会的・経済的福祉の増大化などの機能をも伴うことになる。企業の他に、非営利機関、個人などが広告主となる場合もある。」というものである。広告のカテゴリーとなる3条件は、1.管理可能な広告媒体（広告主が宣伝しようとする場合、新聞記事やテレビ番組に取り上げてもらう管理不可能なパブリシティと区別するためである）、2.非人的メッセージ、3.明示された広告主 (advertiser) が行うということである。↑</ns2:description>
+    <rdfs:label>広告</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/えちご屋広告チラシ.JPG?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q37038"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/広告"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Advertising"/>
+  </ns3:Type>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/大日本教育会">
+    <rdfs:label>大日本教育会</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/太田小三郎">
+    <rdfs:label>太田小三郎</rdfs:label>
+  </ns3:Agent>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/名古屋">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11414791"/>
+    <rdfs:label>名古屋</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/名古屋"/>
+  </ns3:Place>
+  <ns3:Event rdf:about="https://kunshujo.web.app/api/event/内国勧業博覧会">
+    <rdfs:label>内国勧業博覧会</rdfs:label>
+    <ns2:description xml:lang="ja">内国勧業博覧会とは、日本の明治時代に5回開かれた博覧会。名称通り国内の産業発展を促進し、魅力ある輸出品目育成を目的とした、政府主導の博覧会である。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/内国勧業博覧会"/>
+  </ns3:Event>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/大日本農会">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11435747"/>
+    <ns2:description xml:lang="ja">公益社団法人大日本農会（だいにほんのうかい）は、元農林水産省生産局所管の公益社団法人。</ns2:description>
+    <rdfs:label>大日本農会</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/大日本農会"/>
+  </ns3:Keyword>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/貴族院">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q10855638"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/貴族院"/>
+    <rdfs:label>貴族院</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/田中芳男">
+    <ns2:description xml:lang="ja">田中 芳男（たなか よしお、天保9年8月9日（1838年9月27日） - 大正5年（1916年）6月22日）は、幕末から明治期に活躍した博物学者、物産学者、農学者、園芸学者、錦鶏間祗候、男爵。明治期に動物園、植物園を構想し、上野で実現。「博物館」という名称を生み出し、殖産興業の指導に尽力、基礎博物学の啓蒙につとめる。パリで行われた第4回万国博覧会、ウィーン万国博覧会に責任者として派遣される。元老院議官、貴族院議員、大日本山林会会長、日本園芸会副会長を歴任。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/田中芳男"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Tanaka_Yoshio"/>
+    <rdfs:label>田中芳男</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11575905"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tanaka_Yoshio.jpg?width=300"/>
+  </ns3:Agent>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/大阪">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11439906"/>
+    <rdfs:label>大阪</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/大阪"/>
+    <ns2:description xml:lang="ja">大阪（おおさか、英: Ōsaka）は、日本の近畿地方（関西地方）の地名である。西日本最大の都市である大阪市（狭義の大阪）と、大阪市を府庁所在地とする大阪府を指す地域名称であり、広い意味では大阪市を中心とする京阪神（畿内、大阪都市圏、関西圏）を漠然と総称することにも使われる。関西の経済・文化の中心地で、古くは大坂と表記し、古都・副都としての歴史を持つ。</ns2:description>
+  </ns3:Place>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/葉書">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/はがき"/>
+    <rdfs:label>はがき</rdfs:label>
+    <ns2:description xml:lang="ja">はがき（葉書、端書）は、手紙の形態の一つ。郵便葉書の略。郵便約款で定められた規格・様式に基づき、郵便料金を示す証票が印刷された通信用紙（官製はがき）およびこれを基準として作られた、切手を貼って出す通信用紙（私製はがき）。宛先と本文を一枚の厚めの紙（サイズは官製はがきで100.0mm×148.0mm）に書いて、封筒に入れずにそのまま送付する。英語ではPostCardまたはPostal Card。フランス語ではCarte Postale。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Prefect_Office_Nagasaki.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Postcard"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q192425"/>
+  </ns3:Type>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/優待券">
+    <rdfs:label>優待券</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/年賀状">
+    <ns2:image rdf:resource="http://ja.wikipedia.org/wiki/Special:FilePath/街頭・年賀状販売_(2006年).jpg?width=300"/>
+    <ns2:description xml:lang="ja">年賀状（ねんがじょう）とは、新年に送られる郵便葉書やカードを用いたあいさつ状のことである。新年を祝う言葉をもってあいさつし、旧年中の厚誼の感謝と新しい年に変わらぬ厚情を依願する気持ちを、親しい相手への場合などには近況を添えることがある。日本では多く取り交わされ、日本に近い韓国、中国、台湾にも似た風習がある。これに対して、欧米などではクリスマス・カードやグリーティングカードで「新年のあいさつ」を済ませてしまうので、在外邦人を除き、年賀状の文化は無い。</ns2:description>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q3491001"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/年賀状"/>
+    <rdfs:label>年賀状</rdfs:label>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/New_Year_card"/>
+  </ns3:Type>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/明治宝鑑">
+    <rdfs:label>明治宝鑑</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104700432"/>
+    <ns2:description xml:lang="ja">日本において総合年鑑として初めて刊行。政治宮内、内事、外事、理財、農工商、交通、学事、社寺衛生、軍事、法律、警事、それぞれの構成諸項目百般につきその沿革、現勢、人事異動の詳密な記述。明治初期の百科資料。</ns2:description>
+  </ns3:Keyword>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/大日本織物協会">
+    <rdfs:label>大日本織物協会</rdfs:label>
+  </ns3:Organization>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/ラベル">
+    <rdfs:label>ラベル</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q845835"/>
+    <ns2:description xml:lang="ja">ラベル（英語: label、英語発音: [leibl]（レィブル）、En-us-label.ogg 聞く）とは、容器、箱等の包装物の表面に貼り付けるなどの方法で固定して、そのものの名称（品名）、製造者、販売者、食品の場合には原材料名等を記載するもの。日本語ではラベルと呼ぶことが多く、他にレッテル（オランダ語由来）、レーベルということもある。素材は、紙または合成樹脂が多い。保護や印刷のために、表面に特別な加工がなされたものも多い。裏面にすでに接着物質が塗布されたシールである場合が多く、小売店などではリール状の剥離紙に等間隔に貼り付けたれたラベルを、ハンドラベラーあるいはシールピーラーなどで個々の商品の上に値札として貼り付けることが多い。ただし、個別に糊付けするもの、包むような方法で、貼り付けせずに固定するもの（例えば、ペットボトルのラベル）、針金などでくくりつけるようなものもある。郵便物の表面に貼り付ける「宛名ラベル」、磁気的記録物の内容を表示するためにその本体やケースに貼り付けるラベルなども存在する。なお、ラベルは、その利用のされ方から、印刷や接着剤・粘着剤との関係が深い。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/ラベル"/>
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Label"/>
+  </ns3:Type>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/龍池会">
+    <rdfs:label>龍池会</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11679271"/>
+    <ns2:description xml:lang="ja">龍池会（りゅうちかい）は、明治時代初期の美術団体。「竜池会」と書かれる場合もある。明治20年（1887年）に「日本美術協会」（にほんびじゅつきょうかい）へと改称した（日本美術協会は現在も存続している）。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/龍池会"/>
+  </ns3:Organization>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/東京">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/東京"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2015.jpg?width=300"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q7473516"/>
+    <ns2:description xml:lang="ja">東京（とうきょう、英語：Tokyo）は、1868年9月（慶応4年7月）に江戸幕府の所在地の江戸を「東京」と改称したものであり、日本の首都機能のある都市。。関東平野にあり、東京湾に面する。</ns2:description>
+    <rdfs:label>東京</rdfs:label>
+  </ns3:Place>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/村田平左衛門">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104700630"/>
+    <rdfs:label>村田平左衛門</rdfs:label>
+  </ns3:Agent>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/大日本水産会">
+    <ns2:description xml:lang="ja">一般社団法人大日本水産会（だいにほんすいさんかい、Japan Fisheries Association）は、1882年（明治15年）設立で、水産業に関係する生産者、加工業者、流通業者、小売販売会社など、約400の会員で構成される業界団体。元農林水産省所管。</ns2:description>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/大日本水産会"/>
+    <rdfs:label>大日本水産会</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11435732"/>
+  </ns3:Organization>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/名刺">
+    <ns1:sameAs rdf:resource="http://dbpedia.org/resource/Business_card"/>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q13426746"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/名刺"/>
+    <rdfs:label>名刺</rdfs:label>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Goethe_visiting_card.png?width=300"/>
+    <ns2:description xml:lang="ja">名刺（めいし、中: 名片、米: Calling Card、英: Visiting Card、Business Cardの表記も）は、本人が自らの名前と所属・連絡先等を示すために他人に渡すことを目的としたカードである。</ns2:description>
+  </ns3:Type>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/鹿田静七">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104700507"/>
+    <rdfs:label>鹿田静七</rdfs:label>
+    <ns2:description xml:lang="ja">大阪の古書籍商「松雲堂」の二代目主人。号は古丼。商売のかたわら、慶応4年（1868）閏4月、大阪で初めての新聞『内外新聞』を刊行するが、新聞社の建物はもとの泊園書院であった。上方文化における静七最大の貢献は散逸しつつある古書・資料の発掘と収集に力を注いだことで、明治34年から大阪和書会を興し、同業者を集めて入札会を開催している。こうした展示会には南岳も親しく参加している。静七は明治17年（1881）、『東畡先生文集』全10巻の刊行にも一役かった。</ns2:description>
+  </ns3:Agent>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/前田道方">
+    <rdfs:label>前田道方</rdfs:label>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/謹告">
+    <rdfs:label>謹告</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/値札">
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/値札"/>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Victorinox_Swiss_Army_Men's_241424_Dive_Master_500_Chrono_Black_Dial_Watch-10.jpg?width=300"/>
+    <ns2:description xml:lang="ja">値札（ねふだ、英: price tag、price label）は、小売店側が客に示すために商品の価格を記した札。メーカーの出荷時点で既に付けている場合、流通の途中段階で付ける場合、小売店に商品が到着してから付ける場合など、そのタイミングはさまざまである。また、単に（ショーウインドーなどで）商品の近くに置いたものも含めて、値札と呼ぶことがある。</ns2:description>
+    <rdfs:label>値札</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q490527"/>
+  </ns3:Type>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/案内状">
+    <rdfs:label>案内状</rdfs:label>
+  </ns3:Type>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/阿部重吉">
+    <rdfs:label>阿部重吉</rdfs:label>
+  </ns3:Agent>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/辻新次">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q11638221"/>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/辻新次"/>
+    <rdfs:label>辻新次</rdfs:label>
+    <ns2:description xml:lang="ja">辻 新次（つじ しんじ、天保13年1月9日（1842年2月18日） - 大正4年（1915年）11月30日）は明治時代の日本の文部官僚。旧松本藩士。男爵。号は信松。信濃国松本出身。1866年（慶応2年）に開成所化学教授手伝並となり、明治に入ってからは大学助教、次いで大学南校校長となった。また1871年（明治4年）の文部省出仕以降は、学制取調掛、学校課長、地方学務局長、普通学務局長、初代文部次官を歴任。明治前半期のほとんどの教育制度策定にかかわったため、「文部省の辻か、辻の文部省か」と言われ、また「教育社会の第一の元老」、「明治教育界の元勲」などと評された。この間、明六社会員となり、大日本教育会（後に帝国教育会）、仏学会、伊学協会の各会長にも就任している。1892年（明治25年）の文部省退官後は貴族院勅選議員、高等教育会議議員、教育調査会委員に選ばれたほか、仁寿生命保険、諏訪電気、伊那電車軌道の社長を務めた。</ns2:description>
+    <ns2:image rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Shinji_Tsuji.jpg?width=300"/>
+  </ns3:Agent>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/谷本清兵衛">
+    <rdfs:label>谷本清兵衛</rdfs:label>
+  </ns3:Agent>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/稟告">
+    <rdfs:label>稟告</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/大日本蚕糸会">
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q64143423"/>
+    <rdfs:label>財団法人 大日本蚕糸会</rdfs:label>
+  </ns3:Organization>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/新橋"/>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/日本園芸会">
+    <rdfs:label>日本園芸会</rdfs:label>
+    <ns1:sameAs rdf:resource="http://www.wikidata.org/entity/Q104700469"/>
+  </ns3:Organization>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/商品ラベル">
+    <rdfs:label>商品ラベル</rdfs:label>
+  </ns3:Type>
+  <ns3:Time rdf:about="https://kunshujo.web.app/api/time/1902-10">
+    <rdfs:label>1902-10</rdfs:label>
+  </ns3:Time>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/風月堂">
+    <rdfs:label>凮月堂</rdfs:label>
+    <ns1:sameAs rdf:resource="http://ja.dbpedia.org/resource/凮月堂"/>
+  </ns3:Keyword>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/官許">
+    <rdfs:label>官許</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Type rdf:about="https://kunshujo.web.app/api/type/出品札">
+    <rdfs:label>出品札</rdfs:label>
+  </ns3:Type>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/証">
+    <rdfs:label>証</rdfs:label>
+  </ns3:Keyword>
+  <ns3:Organization rdf:about="https://kunshujo.web.app/api/org/明治火災保険株式会社">
+    <rdfs:label>明治火災保険株式会社</rdfs:label>
+  </ns3:Organization>
+  <ns3:Agent rdf:about="https://kunshujo.web.app/api/chname/長岡久左衛門"/>
+  <ns3:Place rdf:about="https://kunshujo.web.app/api/place/本郷3丁目"/>
+  <ns3:Keyword rdf:about="https://kunshujo.web.app/api/keyword/宝丹"/>
 </rdf:RDF>

@@ -1,5 +1,6 @@
 import gspread
 import json
+import urllib
 
 #ServiceAccountCredentials：Googleの各サービスへアクセスできるservice変数を生成します。
 from oauth2client.service_account import ServiceAccountCredentials 
@@ -65,7 +66,7 @@ for i in range(1, row_size):
                     "uri" : uri
                 }
                 if wiki != "":
-                    structured[value]["wiki"] = wiki
+                    structured[value]["wiki"] = urllib.parse.unquote(wiki)
             
 
 start = 0

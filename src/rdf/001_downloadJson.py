@@ -26,6 +26,7 @@ def dwn(url, opath):
         with open(opath, 'w') as outfile:
             json.dump(result, outfile, ensure_ascii=False,
                 indent=4, sort_keys=True, separators=(',', ': '))
+    
     except Exception as e:
         print("Err", url)
 
@@ -36,50 +37,61 @@ with open(st_path) as f:
 
 for key in st:
     obj = st[key]
+
     if "wiki" in obj:
         wiki = urllib.parse.unquote(obj["wiki"])
         print(wiki)
-        ln = wiki.split("/")[-1]
 
-        dbpedia_ja = "http://ja.dbpedia.org/data/" + ln + ".json"
+        if "www.wikidata" in wiki:
 
-        opath = "data/dbpedia_ja/"+ln+".json"
+            ln = obj["uri"].split(":")[1]
 
-        if not os.path.exists(opath):
-            dirname = os.path.dirname(opath)
-            os.makedirs(dirname, exist_ok=True)
+            wikidata = wiki+".json"
+            print(wikidata)
+            opath = "data/wikidata/"+ln+".json"
+            dwn(wikidata, opath)
+        else:
+            ln = wiki.split("/")[-1]
 
-            try:
-                result = requests.get(dbpedia_ja).json()
+            dbpedia_ja = "http://ja.dbpedia.org/data/" + ln + ".json"
 
-                with open(opath, 'w') as outfile:
-                    json.dump(result, outfile, ensure_ascii=False,
-                        indent=4, sort_keys=True, separators=(',', ': '))
+            opath = "data/dbpedia_ja/"+ln+".json"
 
-                
-                
-            except Exception as e:
-                print("Err", dbpedia_ja)
+            if not os.path.exists(opath):
+                dirname = os.path.dirname(opath)
+                os.makedirs(dirname, exist_ok=True)
 
-        if os.path.exists(opath):
-            with open(opath) as f:
-                df = json.load(f)
+                try:
+                    result = requests.get(dbpedia_ja).json()
 
-                uri = "http://ja.dbpedia.org/resource/"+ln
+                    with open(opath, 'w') as outfile:
+                        json.dump(result, outfile, ensure_ascii=False,
+                            indent=4, sort_keys=True, separators=(',', ': '))
 
-                if uri not in df:
-                    continue
+                    
+                    
+                except Exception as e:
+                    print("Err", dbpedia_ja)
 
-                obj = df[uri]
+            if os.path.exists(opath):
+                with open(opath) as f:
+                    df = json.load(f)
 
-                if "http://www.w3.org/2002/07/owl#sameAs" in obj:
+                    uri = "http://ja.dbpedia.org/resource/"+ln
 
-                    sames = obj["http://www.w3.org/2002/07/owl#sameAs"]
+                    if uri not in df:
+                        continue
 
-                    for s in sames:
-                        if "www.wikidata.org" in s["value"]:
-                            wikidata = s["value"]+".json"
-                            opath = "data/wikidata/"+ln+".json"
-                            dwn(wikidata, opath)
+                    obj = df[uri]
+
+                    if "http://www.w3.org/2002/07/owl#sameAs" in obj:
+
+                        sames = obj["http://www.w3.org/2002/07/owl#sameAs"]
+
+                        for s in sames:
+                            if "www.wikidata.org" in s["value"]:
+                                wikidata = s["value"]+".json"
+                                opath = "data/wikidata/"+ln+".json"
+                                dwn(wikidata, opath)
 
             
