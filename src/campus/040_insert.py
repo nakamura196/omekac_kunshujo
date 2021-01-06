@@ -59,11 +59,11 @@ for i in range(1, row_size):
         for j in range(0, 6):
             uri = ds[index + 2 + 2 * j].value
             wiki =  ds[index + 3 + 2 * j].value
-            if uri != "" and uri != "なし":
+
+            if ":" in uri:
                 structured[value] = {
                     "uri" : uri
                 }
-
                 if wiki != "":
                     structured[value]["wiki"] = wiki
             
