@@ -65,7 +65,7 @@ for collection in collections:
             anno_id = int(otherContent_url.split("/")[-2])
             
             
-            if anno_id < 11313:
+            if anno_id < 11313 and False:
                 continue
 
             # print("***", otherContent_url, data_path)
