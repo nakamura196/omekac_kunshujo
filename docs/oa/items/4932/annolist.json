@@ -2,5 +2,87 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/4932/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/43736/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d50ddf55-64e5-4f37-9388-ca176be0ba5b/canvas/p207",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1477,1171,5059,4034"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1476.88989,1171.4657h2529.2852v0h2529.2852v2017.22744v2017.22744h-2529.2852h-2529.2852v-2017.22744z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_fbcbee7a-5c9c-4ac7-9066-98e6cbbf0a2b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"25.72307\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/43/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>\n<p>[kun041-196-012]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "在台南府近衛師団衛生隊第一中隊_神保喜兵衛"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "守田宝丹"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "守田治兵衛"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "守田重兵衛"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宝丹本舗"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宮内省御用香水_素馨香"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "彰仁親王"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治28年11月10日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "桜か本家"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "白薔薇ワニヲ香水"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第4回内国勧業博覧会褒賞証"
+                }
+            ]
+        }
+    ]
 }

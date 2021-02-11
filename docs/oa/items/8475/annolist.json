@@ -2,5 +2,79 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/8475/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/42828/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1b02b90f-a6bb-4997-b0bd-93333aaeb4ec/canvas/p49",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1408,1050,5270,3860"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6677.47653,1049.62597h-2634.85289v0h-2634.85289v1930.1065v1930.1065h2634.85289h2634.85289v-1930.1065z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_4fd03c47-4b25-42e7-9c54-2a56d6d227bd\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/66/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun069-048-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "会長_名和靖"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "出納主任_西郷金治"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "副総裁_薄定吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "名和昆虫研究所特別昆虫標本全景"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "名和昆虫研究所維持会概則"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "庶務主任_名和梅吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治39年12月15日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "監督_堀口有一"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "総裁_田中芳男"
+                }
+            ]
+        }
+    ]
 }

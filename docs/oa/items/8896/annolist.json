@@ -2,5 +2,83 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/8896/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/46638/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4095d9ee-3665-4de8-ac47-84cd7181ce46/canvas/p70",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1868,642,3866,3226"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1868.04513,641.62816h1933.0698v0h1933.0698v1613.03369v1613.03369h-1933.0698h-1933.0698v-1613.03369z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_927e5742-435f-49fe-a25a-f7b7760480fb\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/69/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>北川聖子</p>\n<p>［kun072-068-003］</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "4月4日番組"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "4月5日番組"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "元禄囃子"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "勢獅子"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "地方"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小鍛冶"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "此花踊"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "点茶"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "羅浮仙"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "若菜摘"
+                }
+            ]
+        }
+    ]
 }

@@ -5,11 +5,96 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/42185/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c6ab5d-eeb2-4b73-8c2c-8a6044b667de/canvas/p5",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4278,512,2277,2805"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6555.13848,3317.39156h-1138.39421v0h-1138.39421v-1402.60157v-1402.60157h1138.39421h1138.39421v1402.60157z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_cb3e65b7-a7e5-47a9-8976-df56f3ba71c8\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"23.99877\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/20/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>中村美里、梅谷</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "キヅミ類"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "下谷南稲荷町2番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "富士屋勇蔵"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "寒暖計"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "御眼鏡"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "御誂"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "水晶玉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "磁石"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "虫目鏡"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "遠目鏡"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "金銀輪攫"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "風よけ目鏡"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/42186/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -23,11 +108,11 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4808.70464,3429.58413h920.22142v0h920.22142v672.52702v672.52702h-920.22142h-920.22142v-672.52702z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_354a7d34-8681-460b-af74-cd784228584e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4808.70464,3429.58413h920.22142v0h920.22142v672.52702v672.52702h-920.22142h-920.22142v-672.52702z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_354a7d34-8681-460b-af74-cd784228584e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"41.46988\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
-                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/20/manifest.json",
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/20/manifest.json",
                         "@type": "sc:Manifest"
                     }
                 }
@@ -35,7 +120,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>中村美里</p>",
+                    "chars": "<p>中村美里、梅谷</p>",
                     "format": "text/html"
                 },
                 {
@@ -45,6 +130,10 @@
                 {
                     "@type": "oa:Tag",
                     "chars": "R.Kondo"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Tokio"
                 }
             ]
         },
@@ -53,8 +142,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/42187/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -68,7 +157,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M812.79224,3400.83931h953.24734v0h953.24734v716.56158v716.56158h-953.24734h-953.24734v-716.56158z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_de6f2a03-024f-473d-b32d-602a7b702927\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M812.79224,3400.83931h953.24734v0h953.24734v716.56158v716.56158h-953.24734h-953.24734v-716.56158z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_de6f2a03-024f-473d-b32d-602a7b702927\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"17.99908\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -80,7 +169,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>中村美里</p>",
+                    "chars": "<p>中村美里、梅谷</p>",
                     "format": "text/html"
                 },
                 {
@@ -90,6 +179,10 @@
                 {
                     "@type": "oa:Tag",
                     "chars": "R.Kondo"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Tokio"
                 }
             ]
         },
@@ -98,8 +191,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/42188/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -113,7 +206,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2795.57078,3424.07981h389.05455v0h389.05455v691.79214v691.79214h-389.05455h-389.05455v-691.79214z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_3c4b1580-c1ac-4c72-b6ad-df519061fe8a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2795.57078,3424.07981h389.05455v0h389.05455v691.79214v691.79214h-389.05455h-389.05455v-691.79214z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_3c4b1580-c1ac-4c72-b6ad-df519061fe8a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"17.99908\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -125,7 +218,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>中村美里</p>",
+                    "chars": "<p>中村美里、梅谷</p>",
                     "format": "text/html"
                 },
                 {
@@ -147,8 +240,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/42189/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -162,7 +255,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3995.51251,3457.10572h380.79807v0h380.79807v708.3051v708.3051h-380.79807h-380.79807v-708.3051z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_367bcfc5-b241-42c8-baa7-de56c3d6cfca\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3995.51251,3457.10572h380.79807v0h380.79807v708.3051v708.3051h-380.79807h-380.79807v-708.3051z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_367bcfc5-b241-42c8-baa7-de56c3d6cfca\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"23.99877\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -174,7 +267,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>中村美里</p>",
+                    "chars": "<p>中村美里、梅谷</p>",
                     "format": "text/html"
                 },
                 {
@@ -211,7 +304,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M952.5351,734.41164h1392.3349v0h1392.3349v1193.57277v1193.57277h-1392.3349h-1392.3349v-1193.57277z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_487dd317-79b4-442c-a1e4-6d4ff735cab2\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"59.44665\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M952.5351,734.41164h1392.3349v0h1392.3349v1193.57277v1193.57277h-1392.3349h-1392.3349v-1193.57277z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_487dd317-79b4-442c-a1e4-6d4ff735cab2\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"44.78747\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -223,8 +316,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>中村美里</p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"mso-bidi-font-size: 10.5pt; mso-fareast-font-family: 游明朝; mso-fareast-theme-font: minor-latin;\">[kun019-005-001]</span></p>",
+                    "chars": "<p>中村美里、梅谷</p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"mso-bidi-font-size: 10.5pt; mso-fareast-font-family: 游明朝; mso-fareast-theme-font: minor-latin;\">[kun019-005-001]</span></p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "16年1月5日"
                 },
                 {
                     "@type": "oa:Tag",

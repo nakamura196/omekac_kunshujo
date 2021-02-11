@@ -2,5 +2,83 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/3995/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/44225/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8e7b55c0-dfce-4166-aca9-57a58f873c67/canvas/p23",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2344,969,483,572"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2827.88877,968.50606h-241.72727v0h-241.72727v286v286h241.72727h241.72727v-286z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_95da4f6d-2b4a-435c-809d-a8cf2174ce21\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/39/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔ごぼう〕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "38年2月8日覧"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "クワヰ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "コバウ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "サツマイモ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "サトイモ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ジャガタライモ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ダイコン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "にんじん"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ハス"
+                }
+            ]
+        }
+    ]
 }

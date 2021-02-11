@@ -23,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1391.54693,926.10469h1371.8213v0h1371.8213v2001.22563v2001.22563h-1371.8213h-1371.8213v-2001.22563z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_47ded65a-b1b0-49e3-8988-8d65bd63d853\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1391.54693,926.10469h1371.8213v0h1371.8213v2001.22563v2001.22563h-1371.8213h-1371.8213v-2001.22563z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_47ded65a-b1b0-49e3-8988-8d65bd63d853\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"44.44946\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,12 +35,93 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>南英明</p>\n<p>[kan041-007-001]</p>",
+                    "chars": "<p style=\"text-align: justify; text-indent: -13.9px;\">南英明、徐燕斌</p>\n<p>[kun041-007-001]</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
                     "chars": "預り証書"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/42782/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d50ddf55-64e5-4f37-9388-ca176be0ba5b/canvas/p7",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=3984,1022,2722,4034"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3983.83935,1022.11552h1361.15343v0h1361.15343v2017.22744v2017.22744h-1361.15343h-1361.15343v-2017.22744z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_93fd91a5-8ed6-4966-864f-36aee760d108\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/43/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>\n<p><span style=\"font-family: Times; font-size: 10.5px; text-align: justify; text-indent: -13.9px;\">[kun041-006-002]</span></p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "博覧会事務局"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "古筆了仲"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "古筆了悦"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "文魁堂"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治7年3月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "楓川釣古"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "樋口趨古"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "田澤静雲"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "赤松琴二"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "須原鉄二"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "高木法古"
                 }
             ]
         }

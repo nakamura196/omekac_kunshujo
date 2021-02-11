@@ -7,10 +7,7 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/33121/anno.json",
             "@type": "oa:Annotation",
-            "motivation": [
-                "oa:tagging",
-                "oa:commenting"
-            ],
+            "motivation": "oa:commenting",
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -23,7 +20,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_4383b530-c373-4222-8f2c-628b048e2a86\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 3727.81 1203.47 h 1147.8 v 0 h 1147.8 v 1803.87 v 1803.87 h -1147.8 h -1147.8 v -1803.87 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3727.81,1203.47h1147.8v0h1147.8v1803.87v1803.87h-1147.8h-1147.8v-1803.87z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_4383b530-c373-4222-8f2c-628b048e2a86\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"27.95754\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,12 +32,8 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>\n<p>〔kun047-016-002〕</p>",
+                    "chars": "<p>小幡千春、梅谷</p>\n<p>[kun047-016-002]</p>",
                     "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "大日本水産会総会手順"
                 }
             ]
         },
@@ -49,8 +42,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/33122/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -64,7 +57,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_493539d8-e068-4f18-9d35-924fbd0284e7\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 1042.29 3523.43 h 1279.44 v 0 h 1279.44 v 831.855 v 831.855 h -1279.44 h -1279.44 v -831.855 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1042.29,3523.43h1279.44v0h1279.44v831.855v831.855h-1279.44h-1279.44v-831.855z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_493539d8-e068-4f18-9d35-924fbd0284e7\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"21.57217\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -76,7 +69,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>",
+                    "chars": "<p>小幡千春、梅谷</p>",
                     "format": "text/html"
                 },
                 {
@@ -85,11 +78,23 @@
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "大日本水産会"
+                    "chars": "大日本水産会大阪支会長高崎親章"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本水産会幹事長村田保"
                 },
                 {
                     "@type": "oa:Tag",
                     "chars": "明治36年4月13日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第21回定期総会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "関西九州府県連合水産集談会"
                 }
             ]
         },
@@ -98,8 +103,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/33123/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -113,7 +118,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_d7f3c9b7-b7f0-4561-b35e-72c427e609f8\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 3439.68 710.352 h -1196.67 v 0 h -1196.67 v 1396.22 v 1396.22 h 1196.67 h 1196.67 v -1396.22 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3439.68,710.352h-1196.67v0h-1196.67v1396.22v1396.22h1196.67h1196.67v-1396.22z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_d7f3c9b7-b7f0-4561-b35e-72c427e609f8\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"21.57217\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -125,7 +130,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>",
+                    "chars": "<p>小幡千春、梅谷</p>",
                     "format": "text/html"
                 },
                 {
@@ -134,11 +139,19 @@
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "日本水産会"
+                    "chars": "園遊会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "日本水産会大阪支会長"
                 },
                 {
                     "@type": "oa:Tag",
                     "chars": "田中芳男殿"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第3次大会"
                 },
                 {
                     "@type": "oa:Tag",

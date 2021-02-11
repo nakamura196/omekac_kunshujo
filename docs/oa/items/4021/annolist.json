@@ -2,5 +2,91 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/4021/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/45443/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/8e7b55c0-dfce-4166-aca9-57a58f873c67/canvas/p49",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1169,1985,3622,3213"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1168.7696,1985.48474h1811.24936v0h1811.24936v1606.46128v1606.46128h-1811.24936h-1811.24936v-1606.46128z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_fed1920c-2688-4764-bf4f-95bb08e4adfa\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6.47011\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/39/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>\n<p><span style=\"color: #333333; font-family: 'Open Sans', 'Lucida Grande', Verdana, Arial, sans-serif; background-color: #fafafa;\">[kun037-048-003</span><span style=\"color: #333333; font-family: 'Open Sans', 'Lucida Grande', Verdana, Arial, sans-serif; background-color: #fafafa;\">]</span></p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "あこぎ焼"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "あこぎ飴"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "よわいの友"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "国府の袈裟"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "国府の餅"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "津市立町＿平松確次郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "浦千鳥"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "滋養甘"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "神園の梅"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "金玉堂珍菓名産十種"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "阿古木の月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "露かほり"
+                }
+            ]
+        }
+    ]
 }

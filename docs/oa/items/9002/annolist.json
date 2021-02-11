@@ -2,5 +2,75 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/9002/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/46545/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/67188e3b-6b9c-4df7-b70a-e62362273654/canvas/p84",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1170,723,5961,4547"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7130.86101,723.41516h-2980.66968v0h-2980.66968v2273.25632v2273.25632h2980.66968h2980.66968v-2273.25632z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_87ea22e4-2169-44fa-a0e0-9a5ed3f906d8\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"32.00361\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/70/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>古川諒太</p>\n<p>［kun073-080-005］</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "困難を極めし工事"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "安田善次郎翁著_富之礎_昭文堂"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "山中の一孤村"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "御嶽行者"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "所謂木曽の区域"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "木曽の八景"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "沿線の名勝舊蹟"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "美人系の中心"
+                }
+            ]
+        }
+    ]
 }

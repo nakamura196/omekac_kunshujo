@@ -2,5 +2,83 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/9731/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/48395/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/92ef19fb-2604-423e-99f6-9b95dec2a17a/canvas/p10",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1145,642,5857,4601"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1145.0006,641.62816h2928.73767v0h2928.73767v2300.51865v2300.51865h-2928.73767h-2928.73767v-2300.51865z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_6eb819b4-18d8-4ddb-866f-324d4556ef39\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/76/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>麻生高代</p>\n<p>[kun036-010-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ヴァイオリン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "オルガン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ピアノ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "優待券"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "創業25年"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "山野政太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京銀座"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松本新吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松本楽器"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松本楽器合資会社"
+                }
+            ]
+        }
+    ]
 }

@@ -2,5 +2,91 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/1822/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/42763/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/b5421e75-a38d-46fc-bb4b-c3c4228655db/canvas/p79",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1333,633,5186,2252"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1332.90915,632.60138h2592.97578v0h2592.97578v1125.97518v1125.97518h-2592.97578h-2592.97578v-1125.97518z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a0752118-9b92-43be-8ed9-ae29dbd8fdcc\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"23.84715\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/24/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "勉強堂伊藤弥吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "各地大取次所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "圓城半右衛門"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "堺屋伴岱蔵"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大浦屋岩浪長蔵"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "守田治兵衛"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宝丹"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宝丹並宝丹水大取次発売所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宝丹大取次並宝丹水発売所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宝丹宝丹水○其他五畿内並に北国西国行貨物継ギ達シ取次所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "文明開花錠並宝丹舎利別本舗"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "速下丸取次人名"
+                }
+            ]
+        }
+    ]
 }

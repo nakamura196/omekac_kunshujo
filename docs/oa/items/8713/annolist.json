@@ -2,5 +2,99 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/8713/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/45405/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0f382464-3cf6-4f4b-bdd1-173383dc9ceb/canvas/p47",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2026,1452,4909,3694"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2026.46998,1451.61432h2454.40069v0h2454.40069v1847.02194v1847.02194h-2454.40069h-2454.40069v-1847.02194z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_adf38532-98e6-4bea-9249-d48715b909c9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"40.94688\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/68/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>麻生高代</p>\n<p>[kun036-047-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "desinfectol"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "デシン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "デシンフェクトール"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "下山順一郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "帝国医科大学"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "後藤勝造"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "後藤商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "消毒"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "消毒殺菌剤"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "消毒防臭剤"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "牛馬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "登録商標"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "皮膚病"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "防臭"
+                }
+            ]
+        }
+    ]
 }
