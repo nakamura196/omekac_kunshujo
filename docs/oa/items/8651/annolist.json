@@ -7,7 +7,10 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/45214/anno.json",
             "@type": "oa:Annotation",
-            "motivation": "oa:commenting",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -20,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7039.9186,678.09448h-1485.11919v0h-1485.11919v2247.32631v2247.32631h1485.11919h1485.11919v-2247.32631z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b7f3ce7e-62f4-4bc4-a52f-b7fc44023516\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7039.9186,678.09448h-1485.11919v0h-1485.11919v2247.32631v2247.32631h1485.11919h1485.11919v-2247.32631z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_b7f3ce7e-62f4-4bc4-a52f-b7fc44023516\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -32,8 +35,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>相場仁美</p>\n<p>[kun070-132-001]</p>",
+                    "chars": "<p>相場仁美、李澈</p>\n<p>[kun070-132-001]</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "埼玉県物産"
                 }
             ]
         },
@@ -57,7 +64,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4056.24855,689.52616h-1405.09738v0h-1405.09738v2235.89463v2235.89463h1405.09738h1405.09738v-2235.89463z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_b8201552-59da-45f3-a16f-77f993d0ee3e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"68.59012\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4056.24855,689.52616h-1405.09738v0h-1405.09738v2235.89463v2235.89463h1405.09738h1405.09738v-2235.89463z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_b8201552-59da-45f3-a16f-77f993d0ee3e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -69,7 +76,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>相場仁美</p>",
+                    "chars": "<p>相場仁美、李澈</p>",
                     "format": "text/html"
                 },
                 {

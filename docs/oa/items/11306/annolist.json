@@ -2,5 +2,87 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11306/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/55013/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c8f6e88e-80f1-4012-992d-70748707d9d0/canvas/p37",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1110,569,4887,4474"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5997.07822,569.21159h-2443.73927v0h-2443.73927v2237.18331v2237.18331h2443.73927h2443.73927v-2237.18331z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_3d3c13e4-0df4-4e07-a0a0-7c3bce87eb4a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/86/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>\n<p>[kun089-037-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ういらう謹製"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "一名ういらう"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "伝家_透頂香"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "効績附言"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "外郎藤右衛門_定寛"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "官許"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "懐中必携之霊剤"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "登録商標"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "相州小田原"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "相模国小田原町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "透頂香ノ来歴"
+                }
+            ]
+        }
+    ]
 }

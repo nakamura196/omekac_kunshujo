@@ -7,7 +7,10 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/40766/anno.json",
             "@type": "oa:Annotation",
-            "motivation": "oa:commenting",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -20,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4058.51444,5022.56679h1462.49819v0h1462.49819v-2132.57401v-2132.57401h-1462.49819h-1462.49819v2132.57401z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_77412c3b-c51f-4cba-9178-72e009ab9b85\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4058.51444,5022.56679h1462.49819v0h1462.49819v-2132.57401v-2132.57401h-1462.49819h-1462.49819v2132.57401z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_77412c3b-c51f-4cba-9178-72e009ab9b85\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6.38229\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -32,8 +35,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>相場仁美</p>\n<p>[kun068-003-012]</p>",
+                    "chars": "<p>相場仁美、礒山</p>\n<p>[kun068-003-012]</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第2部_製造物"
                 }
             ]
         },
@@ -42,8 +49,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/40767/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -57,7 +64,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4015.84296,819.42599h-1471.16606v0h-1471.16606v2134.57401v2134.57401h1471.16606h1471.16606v-2134.57401z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d9c7276b-42f0-4485-a1d6-35a25176e95f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4015.84296,819.42599h-1471.16606v0h-1471.16606v2134.57401v2134.57401h1471.16606h1471.16606v-2134.57401z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_d9c7276b-42f0-4485-a1d6-35a25176e95f\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"38.29374\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -69,8 +76,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>相場仁美</p>\n<p>[kun068-014-001]</p>",
+                    "chars": "<p>相場仁美、礒山</p>\n<p>[kun068-014-001]</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治41年10月"
                 },
                 {
                     "@type": "oa:Tag",

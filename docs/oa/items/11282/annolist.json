@@ -2,5 +2,127 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11282/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/51762/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c8f6e88e-80f1-4012-992d-70748707d9d0/canvas/p13",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1039,551,4701,4653"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5739.85921,550.67329h-2350.46841v0h-2350.46841v2326.39892v2326.39892h2350.46841h2350.46841v-2326.39892z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ae245029-6b45-4480-a7ce-935b19019f86\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"62.56679\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/86/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>八牧百合子</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "denbu"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Iyoman.&co."
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Kyoto_Nippn"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Narazuke"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "satozuke"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Senmaizuke"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Shokuriyokanzume"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "すぐき"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "たれみそ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "でんぶ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "なら漬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "京都府□当小路西八"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "千枚漬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "商標_いよ万"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "塩山椒"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "塩漬まつたけ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "梅にく"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "梅はなつけ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "砂糖漬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "花らっきょう瓶詰"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "食料罐詰類"
+                }
+            ]
+        }
+    ]
 }

@@ -2,5 +2,71 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11086/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/52520/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p26",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=2309,1499,4775,3615"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2309.38289,1499.08677h2387.37229v0h2387.37229v1807.46311v1807.46311h-2387.37229h-2387.37229v-1807.46311z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ead2939f-a038-44a8-8086-5858fc183bdd\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>\n<p>[kun087-024-009]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Korean_ginseng"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Korean_ginseng_extract"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Korean_ginseng_for_infusion"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Korean_ginseng_liquid_extract"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Korean_ginseng_pills"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Korean_ginseng_tablets"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Panax_ginseng"
+                }
+            ]
+        }
+    ]
 }

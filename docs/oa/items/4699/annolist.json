@@ -8,8 +8,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/33173/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -23,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4109.41969,5150.16958h-1500.98375v0h-1500.98375v-2223.72514v-2223.72514h1500.98375h1500.98375v2223.72514z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_aaffa05a-3058-4402-9fd6-dbb9b58b5c5b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4109.41969,5150.16958h-1500.98375v0h-1500.98375v-2223.72514v-2223.72514h1500.98375h1500.98375v2223.72514z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_aaffa05a-3058-4402-9fd6-dbb9b58b5c5b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"19.61839\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,7 +35,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>新庄航人</p>",
+                    "chars": "<p>新庄航人、張</p>",
                     "format": "text/html"
                 },
                 {
@@ -73,6 +73,67 @@
                 {
                     "@type": "oa:Tag",
                     "chars": "農商務省登録商標"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/52730/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29ce9528-b3c8-475b-8d40-74cb99083cae/canvas/p142",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4019,650,2897,4269"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4018.64149,4919.23327h1448.55449v0h1448.55449v-2134.73614v-2134.73614h-1448.55449h-1448.55449v2134.73614z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_065fac60-b790-4188-870f-d006104ee1d9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.34866\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/42/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>張郭原</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "一等賞"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大田辺富吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "新発明苹果羊羹廉売広告"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "苹果羊羹"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "苹果羊羹元祖"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "青森県弘前市大字親方町"
                 }
             ]
         }

@@ -5,52 +5,11 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/36635/anno.json",
-            "@type": "oa:Annotation",
-            "motivation": [
-                "oa:tagging",
-                "oa:commenting"
-            ],
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/2b1f5a0c-f86d-4841-ad50-506537a03310/canvas/p173",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=4155,2100,1335,2296"
-                        },
-                        "item": {
-                            "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4154.52527,2099.5704h667.74188v0h667.74188v1147.79603v1147.79603h-667.74188h-667.74188v-1147.79603z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_a7066dfc-31ec-440a-bf92-eb61709fc9f0\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/41/manifest.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
-            "resource": [
-                {
-                    "@type": "dctypes:Text",
-                    "chars": "<p>北川 聖子</p>",
-                    "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "不明"
-                }
-            ]
-        },
-        {
-            "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/36637/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -64,11 +23,11 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1252.86462,776.75451h1387.8231v0h1387.8231v2203.91516v2203.91516h-1387.8231h-1387.8231v-2203.91516z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_a36cde1c-7d2a-4be4-84c4-2a784b9df68d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1252.86462,776.75451h1387.8231v0h1387.8231v2203.91516v2203.91516h-1387.8231h-1387.8231v-2203.91516z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a36cde1c-7d2a-4be4-84c4-2a784b9df68d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"34.40242\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
-                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/41/manifest.json",
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/41/manifest.json",
                         "@type": "sc:Manifest"
                     }
                 }
@@ -76,12 +35,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>北川 聖子</p>\n<p>[kun039-173-001]</p>",
+                    "chars": "<p>北川 聖子、佘</p>\n<p>[kun039-173-001]</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "錦綾館之園"
+                    "chars": "錦綾館之図"
                 }
             ]
         }

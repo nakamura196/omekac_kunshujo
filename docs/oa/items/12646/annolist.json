@@ -2,5 +2,75 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12646/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56890/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p164",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=812,789,6274,8597"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7085.56679,789.38628h-3136.93863v0h-3136.93863v4298.41155v4298.41155h3136.93863h3136.93863v-4298.41155z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_0ddd51da-b244-44cb-a295-93b461f8cb41\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"14.86201\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県伊勢国安濃郡津中新丁14番屋敷"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "作新日報_第159号附録"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "天香仙史"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "応需豊景"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "持主兼印刷人_森常三郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治20年1月5日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "編輯人_玉置小平太"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "自辛洲浦望泗水港"
+                }
+            ]
+        }
+    ]
 }

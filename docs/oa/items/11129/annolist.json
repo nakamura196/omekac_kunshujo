@@ -2,5 +2,136 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11129/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/52767/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p69",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4140,821,2990,4249"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4140.23901,820.91874h1494.9565v0h1494.9565v2124.57218v2124.57218h-1494.9565h-1494.9565v-2124.57218z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ff76c6cc-485b-47af-982c-7b2531febeae\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6.54545\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "新安登録＿既願第31024号"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市下谷区車坂町45＿帝国発明社東京支店＿東京振替口座5245番"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "軽便振動機"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/52768/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p69",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1158,716,2973,4371"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1157.84895,715.98279h1486.67208v0h1486.67208v2185.32457v2185.32457h-1486.67208h-1486.67208v-2185.32457z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a538dedb-0cb9-41d1-b613-50ee859b81ad\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"13.57265\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "京都支店＿京都市下京区四条通寺町御旅町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "取締役＿今西兼二"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "取締役＿浅野総一郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "取締役頭取＿白石元治郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大阪支店＿大阪市南区戎橋南詰南へ入西側"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "年中無休＿昼夜営業之銀行"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "本店＿東京市京橋区竹川町11番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "株式会社＿日本昼夜貯蓄銀行神田支店＿東京市神田区表神保町3番地＿電話本局3436番"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "横浜支店＿横浜市相生町4丁目63番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "監査役＿中野武営"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "監査役＿伊藤幹一"
+                }
+            ]
+        }
+    ]
 }

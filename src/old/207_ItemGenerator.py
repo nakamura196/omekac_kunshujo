@@ -20,7 +20,7 @@ def base_generator():
 
     while loop_flg:
         url = api_url + "/items?page=" + str(
-            page)
+            page)+"&modified_since=2021-04-27"
         print(url)
 
         page += 1

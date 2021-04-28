@@ -23,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2901.27869,818.4918h582.55738v0h582.55738v1285.83607v1285.83607h-582.55738h-582.55738v-1285.83607z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_617763fd-b065-422c-ac59-0d460be3008b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"31.30692\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2901.27869,818.4918h582.55738v0h582.55738v1285.83607v1285.83607h-582.55738h-582.55738v-1285.83607z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_617763fd-b065-422c-ac59-0d460be3008b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"19.41496\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,12 +35,16 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>伊藤祥子</p>",
+                    "chars": "<p>伊藤祥子、梅谷</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "伊勢山田市岡本町_すし健"
+                    "chars": "すし健"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "伊勢山田市岡本町"
                 },
                 {
                     "@type": "oa:Tag",
@@ -68,7 +72,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4927.12146,732.06068h993.42942v0h993.42942v2205.00729v2205.00729h-993.42942h-993.42942v-2205.00729z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_6dc0a1d0-e01e-4e31-a230-4f8afa0fd786\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.45271\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4927.12146,732.06068h993.42942v0h993.42942v2205.00729v2205.00729h-993.42942h-993.42942v-2205.00729z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_6dc0a1d0-e01e-4e31-a230-4f8afa0fd786\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"48.31063\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -80,12 +84,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>伊藤祥子</p>\n<p>[kun067-081-003]</p>",
+                    "chars": "<p>伊藤祥子、梅谷</p>\n<p>[kun067-081-003]</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "徴古館開館□"
+                    "chars": "徴古館開館式"
                 },
                 {
                     "@type": "oa:Tag",
@@ -97,7 +101,10 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/42263/anno.json",
             "@type": "oa:Annotation",
-            "motivation": "oa:commenting",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -110,7 +117,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4099.38083,687.37579h438.84678v0h438.84678v2224.39218v2224.39218h-438.84678h-438.84678v-2224.39218z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b7ae15a6-d5ec-41ea-8ffe-7a55e4df43d8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4099.38083,687.37579h438.84678v0h438.84678v2224.39218v2224.39218h-438.84678h-438.84678v-2224.39218z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_b7ae15a6-d5ec-41ea-8ffe-7a55e4df43d8\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"48.31063\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -122,8 +129,16 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>伊藤祥子</p>",
+                    "chars": "<p>伊藤祥子、梅谷</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔箸袋？〕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "寿"
                 }
             ]
         },
@@ -147,7 +162,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1174.19168,3554.18537h1432.54161v0h1432.54161v771.11349v771.11349h-1432.54161h-1432.54161v-771.11349z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_afd8ef8e-22c2-4cb8-9fbe-d36fd52dfdd9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"38.63485\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1174.19168,3554.18537h1432.54161v0h1432.54161v771.11349v771.11349h-1432.54161h-1432.54161v-771.11349z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_afd8ef8e-22c2-4cb8-9fbe-d36fd52dfdd9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"19.41496\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -159,7 +174,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>伊藤祥子</p>\n<p>[kun067-082-002]</p>",
+                    "chars": "<p>伊藤祥子、梅谷</p>\n<p>[kun067-082-002]</p>",
                     "format": "text/html"
                 },
                 {
@@ -169,6 +184,55 @@
                 {
                     "@type": "oa:Tag",
                     "chars": "松ずし"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/42265/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/7cdad438-6d4a-4b18-8901-23f241da346d/canvas/p82",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1166,772,1176,2617"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1165.59142,771.83985h587.90101v0h587.90101v1308.32976v1308.32976h-587.90101h-587.90101v-1308.32976z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_4d15a6e4-c2a3-494e-af32-e77337b66645\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"33.54905\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/64/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>伊藤祥子、梅谷</p>\n<p>[kun067-083-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "倭町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "御すし"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "旭すし"
                 }
             ]
         },
@@ -192,7 +256,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2271.07692,684.89155h308.42434v0h308.42434v1429.43632v1429.43632h-308.42434h-308.42434v-1429.43632z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_d814009f-f748-4bbd-9eb7-a8b2c0ef21cb\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"37.26356\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2271.07692,684.89155h308.42434v0h308.42434v1429.43632v1429.43632h-308.42434h-308.42434v-1429.43632z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_d814009f-f748-4bbd-9eb7-a8b2c0ef21cb\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"19.41496\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -204,7 +268,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>伊藤祥子</p>\n<p>[kun067-082-001]</p>",
+                    "chars": "<p>伊藤祥子、梅谷</p>\n<p>[kun067-082-001]</p>",
                     "format": "text/html"
                 },
                 {
@@ -213,7 +277,11 @@
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "松ずし"
+                    "chars": "御箸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松鮓"
                 }
             ]
         }

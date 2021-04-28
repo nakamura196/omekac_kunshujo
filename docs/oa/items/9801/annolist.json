@@ -2,5 +2,119 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/9801/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/49725/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/92ef19fb-2604-423e-99f6-9b95dec2a17a/canvas/p80",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1176,673,5905,4660"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1175.63087,5333.1623h2952.6455v0h2952.6455v-2330.04311v-2330.04311h-2952.6455h-2952.6455v2330.04311z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_9887a7e1-0fbb-4e80-b460-e8a587b4d13a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"28.66868\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/76/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>麻生高代、佘欣怡</p>\n<p>[kun079-080-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "あづまたどう"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ほまれ椿油"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "メリヤ足袋"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ヤツトコ火箸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ルラー付算盤"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "九谷焼"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "八千代帯心"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "内藤湯たんぽ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "千代田箱"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "半ゲートル"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "卓上球突"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "即席カレー"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "噴火筒"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "懐中電灯"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "空気帯上"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "空気枕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "自由見台"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "芭蕉菓子"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "電燈昇降器"
+                }
+            ]
+        }
+    ]
 }

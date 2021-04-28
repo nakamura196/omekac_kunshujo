@@ -2,5 +2,95 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12601/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56729/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p119",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=457,855,8785,6055"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M9242.38087,854.98195h-4392.73285v0h-4392.73285v3027.6426v3027.6426h4392.73285h4392.73285v-3027.6426z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_c3e80738-4907-40e4-bb2b-50046ef81259\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"39.36021\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県志摩郡加茂村燐礦産地地質略図"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県鳥羽燐酸産地写真図"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "南鳥島産燐礦"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "各種試製品の部"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宮崎、新潟、三重県燐礦産地地形及地質図"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治36年6月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "本邦産燐礦効験成蹟写真図"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "肥料用礦物標本塔"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "肥料礦物調査功程図"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "肥料礦物調査所出品概説"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "農商務省肥料礦物調査所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "重過燐酸石灰製造場設計写真図"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "重過燐酸石灰製造場設計図"
+                }
+            ]
+        }
+    ]
 }

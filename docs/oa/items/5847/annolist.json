@@ -5,11 +5,11 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/34841/anno.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/48965/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -19,11 +19,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=1150,670,5910,4331"
+                            "value": "xywh=3858,2228,3199,2772"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_dc7fb756-2c53-4baa-b963-aaff63d12c3a\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 7059.74 669.631 h -2954.89 v 0 h -2954.89 v 2165.69 v 2165.69 h 2954.89 h 2954.89 v -2165.69 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3858.03406,2228.3406h1599.27657v0h1599.27657v1385.90463v1385.90463h-1599.27657h-1599.27657v-1385.90463z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_5a1a8fc6-402f-4efb-82c6-31df3ac9a909\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"48.31063\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,12 +35,8 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>\n<p>〔kun047-079-001〕</p>",
+                    "chars": "<p>小幡千春、梅谷</p>\n<p>&nbsp;[kun047-078-003]</p>",
                     "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "〔商品ラベル、商品紹介〕"
                 },
                 {
                     "@type": "oa:Tag",
@@ -48,7 +44,64 @@
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "唐製"
+                    "chars": "売店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大阪売店1号館南口より2筋目東入"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/48966/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/721a0cd7-37d3-4529-b58d-628a57d81313/canvas/p79",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4075,642,1637,1637"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4075.43188,642.14169h818.25477v0h818.25477v818.25477v818.25477h-818.25477h-818.25477v-818.25477z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_731a8f0e-f247-4897-b84d-15ef5ac77f0c\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"23.29795\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/49/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>小幡千春、梅谷</p>\n<p>[kun047-079-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔商品ラベル〕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仙台市国分町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "元祖"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宮内省御用品"
                 },
                 {
                     "@type": "oa:Tag",
@@ -56,7 +109,76 @@
                 },
                 {
                     "@type": "oa:Tag",
+                    "chars": "梅惣"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "陸海軍御用品"
+                },
+                {
+                    "@type": "oa:Tag",
                     "chars": "鯛味噌"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/48967/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/721a0cd7-37d3-4529-b58d-628a57d81313/canvas/p79",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1128,660,2909,4217"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1128.48365,4877.3733h1454.34469v0h1454.34469v-2108.56403v-2108.56403h-1454.34469h-1454.34469v2108.56403z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a60201da-58a2-41da-a23d-9de6946f3c0d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"48.31063\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/49/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>小幡千春、梅谷</p>\n<p>&nbsp;[kun047-079-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔商品紹介〕元祖"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仙台名産"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治10年内国勧業博覧会賞賜"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "陸海軍並ニ各病院ノ御用品"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "鯛味噌揉鯛"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "鯛味噌製美鯛"
                 }
             ]
         }

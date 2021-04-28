@@ -2,5 +2,75 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12592/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56711/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p110",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=601,523,10303,6325"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M10903.77617,522.66968h-5151.52527v0h-5151.52527v3162.47112v3162.47112h5151.52527h5151.52527v-3162.47112z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_37ff9e79-6628-40c5-9f64-2c170b7ce785\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"22.52703\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "印刷所_明文社"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "印刷者_辻庄之助"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "堺市附属水族館"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大阪市北区中之島1丁目1番地第5回内国勧業博覧会協賛会事務所内"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大阪市北区堂島浜通1丁目212番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治36年4月25日発行"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "発行者_入澤京太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第5回内国勧業博覧会案内図"
+                }
+            ]
+        }
+    ]
 }

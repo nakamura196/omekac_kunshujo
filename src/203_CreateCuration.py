@@ -77,6 +77,9 @@ for i in range(0, len(files)):
                     "value" : res["chars"]
                 })
 
+            if "on" not in resource:
+                continue
+
             canvas_uri = resource["on"][0]["full"]
             area = resource["on"][0]["selector"]["default"]["value"]
 

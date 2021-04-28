@@ -2,5 +2,75 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12545/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56238/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p63",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=416,674,3729,5144"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4144.91155,674.31769h-1864.70397v0h-1864.70397v2572.17329v2572.17329h1864.70397h1864.70397v-2572.17329z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_cd68e45b-4794-422e-94d0-05d4d450cae3\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"69.9639\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>\n<p>[kun097-059-005]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "\"Bell\"_brand_paints._colors_oils_and_grease"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Office_and_Woks:_Storer's_wharf_poplar_London_E."
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "paints"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Proprietors_of_David_storer&sons"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "separate_list_of_Wilkinson_Heywood&Clark_Limited."
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "varnish_stains"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "varnishes"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "wood_stains"
+                }
+            ]
+        }
+    ]
 }

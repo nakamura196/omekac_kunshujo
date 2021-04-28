@@ -7,7 +7,10 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/45593/anno.json",
             "@type": "oa:Annotation",
-            "motivation": "oa:commenting",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -20,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4265.33213,3102.35018h1990.55776v0h1990.55776v977.11011v977.11011h-1990.55776h-1990.55776v-977.11011z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_bdf402b4-4a63-414a-bba1-e4acf62ecd1d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4265.33213,3102.35018h1990.55776v0h1990.55776v977.11011v977.11011h-1990.55776h-1990.55776v-977.11011z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_bdf402b4-4a63-414a-bba1-e4acf62ecd1d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"2.72478\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -32,8 +35,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>古川諒太</p>\n<p>［kun073-009-002］</p>",
+                    "chars": "<p>古川諒太、今井海月</p>\n<p>［kun073-009-002］</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "中央鉄道万々歳"
                 }
             ]
         }

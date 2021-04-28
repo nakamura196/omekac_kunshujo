@@ -5,97 +5,11 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/34822/anno.json",
-            "@type": "oa:Annotation",
-            "motivation": [
-                "oa:tagging",
-                "oa:commenting"
-            ],
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/721a0cd7-37d3-4529-b58d-628a57d81313/canvas/p74",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=5697,3052,1355,2127"
-                        },
-                        "item": {
-                            "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_d413f99b-493b-45be-8af4-44359f85ecd8\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 5697.12 3052.06 h 677.517 v 0 h 677.517 v 1063.36 v 1063.36 h -677.517 h -677.517 v -1063.36 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/49/manifest.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
-            "resource": [
-                {
-                    "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>",
-                    "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "〔名刺〕"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "谷本清兵衛"
-                }
-            ]
-        },
-        {
-            "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/34823/anno.json",
-            "@type": "oa:Annotation",
-            "motivation": [
-                "oa:tagging",
-                "oa:commenting"
-            ],
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/721a0cd7-37d3-4529-b58d-628a57d81313/canvas/p74",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=4248,3047,1392,2147"
-                        },
-                        "item": {
-                            "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_8b69e1bf-22c7-43ee-a0c9-b270ea07f3b9\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 5640.53 3046.91 h -696.095 v 0 h -696.095 v 1073.65 v 1073.65 h 696.095 h 696.095 v -1073.65 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/49/manifest.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
-            "resource": [
-                {
-                    "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>",
-                    "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "各国農産種子問屋"
-                }
-            ]
-        },
-        {
-            "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/34825/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -109,11 +23,11 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_c2736cec-1058-4f78-8430-e9f0b8da96ff\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 5648.52 665.834 h -804.646 v 0 h -804.646 v 1121.5 v 1121.5 h 804.646 h 804.646 v -1121.5 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5648.52,665.834h-804.646v0h-804.646v1121.5v1121.5h804.646h804.646v-1121.5z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_c2736cec-1058-4f78-8430-e9f0b8da96ff\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.17913\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
-                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/49/manifest.json",
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/49/manifest.json",
                         "@type": "sc:Manifest"
                     }
                 }
@@ -121,8 +35,32 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>\n<p>〔kun047-074-001〕</p>",
+                    "chars": "<p>小幡千春、梅谷</p>\n<p>[kun047-074-001]</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "主任"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "同郡川崎町農会代表者"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "同郡農友会委員"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本農会員"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "帝国農家一致同盟員"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "橘樹郡農事調査員"
                 },
                 {
                     "@type": "oa:Tag",
@@ -130,7 +68,11 @@
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "稲葉惇太郎"
+                    "chars": "監督"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "稲波惇太郎"
                 },
                 {
                     "@type": "oa:Tag",
@@ -143,8 +85,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/34829/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -158,7 +100,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_7a48675d-cd5b-46a6-991d-5f7c8f8939b9\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 3936.11 673.731 h -721.304 v 0 h -721.304 v 1177.06 v 1177.06 h 721.304 h 721.304 v -1177.06 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3936.11,673.731h-721.304v0h-721.304v1177.06v1177.06h721.304h721.304v-1177.06z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_7a48675d-cd5b-46a6-991d-5f7c8f8939b9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.17913\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -170,7 +112,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>",
+                    "chars": "<p>小幡千春、梅谷</p>",
                     "format": "text/html"
                 },
                 {
@@ -191,7 +133,15 @@
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "第五博覧会振商会"
+                    "chars": "第3回記念品ノ抽籤"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第5博覧会振商会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第5回内国勧業博覧会場工業館脇奏楽堂"
                 }
             ]
         },
@@ -200,8 +150,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/34831/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -215,7 +165,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_f5bb79b5-cb2c-46a6-86ea-39551431a0cf\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 1028.38 2977.49 h 723.818 v 0 h 723.818 v -1138.53 v -1138.53 h -723.818 h -723.818 v 1138.53 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1028.38,2977.49h723.818v0h723.818v-1138.53v-1138.53h-723.818h-723.818v1138.53z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_f5bb79b5-cb2c-46a6-86ea-39551431a0cf\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.17913\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -227,12 +177,20 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>",
+                    "chars": "<p>小幡千春、梅谷</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
                     "chars": "〔案内状〕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "5月29日"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "博覧会場内曲馬演芸御陪観之義"
                 },
                 {
                     "@type": "oa:Tag",
@@ -249,8 +207,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/34833/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -264,7 +222,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" id=\"rectangle_8de65cfc-39f2-413c-9beb-0f61bfcf1c9b\" font-family=\"none\" font-size=\"none\" font-weight=\"none\" style=\"mix-blend-mode: normal\" fill=\"#00bfff\" fill-opacity=\"0\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-width=\"1\" text-anchor=\"none\" d=\"M 1023.23 3059.8 h 1426.06 v 0 h 1426.06 v 1071.08 v 1071.08 h -1426.06 h -1426.06 v -1071.08 Z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1023.23,3059.8h1426.06v0h1426.06v1071.08v1071.08h-1426.06h-1426.06v-1071.08z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_8de65cfc-39f2-413c-9beb-0f61bfcf1c9b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"2.69652\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -276,8 +234,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>小幡千春</p>",
+                    "chars": "<p>小幡千春、梅谷</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "元祖園田屋朝鮮飴特得"
                 },
                 {
                     "@type": "oa:Tag",
@@ -294,6 +256,91 @@
                 {
                     "@type": "oa:Tag",
                     "chars": "朝鮮飴元祖製造所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "熊本市南新坪井町117番地"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/48942/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/721a0cd7-37d3-4529-b58d-628a57d81313/canvas/p74",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4232,3037,2832,2155"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4232.39802,3036.9917h1416.13467v0h1416.13467v1077.45152v1077.45152h-1416.13467h-1416.13467v-1077.45152z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_1aeb8599-4722-4485-9a29-15083215784b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"48.31063\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/49/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>小幡千春、梅谷</p>\n<p>[kun047-075-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔名刺〕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "S._Tanimoto"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Seeds_Man"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "下谷南稲荷町郵便受取所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "各国農産種子問屋"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "営業項目"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本山林会特別会員"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本農会常置議員"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "日本園芸会特撰幹事"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市下谷区南稲荷町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "谷本清兵衛"
                 }
             ]
         }

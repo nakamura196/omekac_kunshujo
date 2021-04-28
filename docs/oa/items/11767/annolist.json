@@ -2,5 +2,71 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11767/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/54058/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/a6d5491b-7a43-4082-819b-b98c2d026b94/canvas/p58",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1143,676,5984,4496"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7126.75632,675.80686h-2991.77798v0h-2991.77798v2248.19043v2248.19043h2991.77798h2991.77798v-2248.19043z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_9c804d74-4e4e-4e74-8f01-8d9a2be21971\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"15.6417\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/89/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>古川諒太</p>\n<p>［kun092-058-001］</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "京城日之出商行"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "南大門"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "器械館と石棺模型室"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "始政5年記念朝鮮物産共進会光景絵葉書"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "慶会楼"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "正門景福宮光化門"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "饗宴場景福宮慶会楼"
+                }
+            ]
+        }
+    ]
 }

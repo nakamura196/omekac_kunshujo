@@ -5,52 +5,11 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/47627/anno.json",
-            "@type": "oa:Annotation",
-            "motivation": [
-                "oa:tagging",
-                "oa:commenting"
-            ],
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ec7ba99b-8ada-479f-bcf8-ba529fbc1a6b/canvas/p40",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=4093,734,2814,4515"
-                        },
-                        "item": {
-                            "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6906.83574,734.08303h-1407.15884v0h-1407.15884v2257.25451v2257.25451h1407.15884h1407.15884v-2257.25451z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_34e15e90-e44f-47fc-9baf-33f079416c68\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/59/manifest.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
-            "resource": [
-                {
-                    "@type": "dctypes:Text",
-                    "chars": "<p>坂田恵子</p>",
-                    "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "不明"
-                }
-            ]
-        },
-        {
-            "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/47628/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -64,11 +23,11 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1216.11974,641.62816h1453.01564v0h1453.01564v1340.41035v1340.41035h-1453.01564h-1453.01564v-1340.41035z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_3f76256a-f063-4640-8e5c-68c55457d9d7\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1216.11974,641.62816h1453.01564v0h1453.01564v1340.41035v1340.41035h-1453.01564h-1453.01564v-1340.41035z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_3f76256a-f063-4640-8e5c-68c55457d9d7\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"38.29374\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
-                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/59/manifest.json",
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/59/manifest.json",
                         "@type": "sc:Manifest"
                     }
                 }
@@ -76,53 +35,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>坂田恵子</p>",
+                    "chars": "<p>坂田恵子、礒山</p>\n<p>[kun058-039-002]</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "田中芳男"
-                }
-            ]
-        },
-        {
-            "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/47629/anno.json",
-            "@type": "oa:Annotation",
-            "motivation": [
-                "oa:tagging",
-                "oa:commenting"
-            ],
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ec7ba99b-8ada-479f-bcf8-ba529fbc1a6b/canvas/p40",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=1159,677,2985,4565"
-                        },
-                        "item": {
-                            "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4143.8574,677.18773h-1492.50181v0h-1492.50181v2282.73887v2282.73887h1492.50181h1492.50181v-2282.73887z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9975efc7-9044-4cd5-b748-3e2538a69d96\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/59/manifest.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
-            "resource": [
-                {
-                    "@type": "dctypes:Text",
-                    "chars": "<p>坂田恵子</p>",
-                    "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "不明"
+                    "chars": "田中芳男殿"
                 }
             ]
         }

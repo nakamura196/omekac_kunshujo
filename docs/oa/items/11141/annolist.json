@@ -2,5 +2,79 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11141/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/53354/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p81",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4118,639,3023,4465"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4118.14723,638.66157h1511.52533v0h1511.52533v2232.2696v2232.2696h-1511.52533h-1511.52533v-2232.2696z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_2ceea3af-f1c0-4fe7-a671-d4dfd6009349\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.50613\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>\n<p>[kun087-080-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "国産奨励"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "御児様哺育"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "梅津牧場産結晶ミルクノ御披露"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "牛乳代用"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第1回国産展覧会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "結晶ミルクコーヒ入"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "結晶ミルクココア入"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "結晶ミルク製造販売元＿山形県東置賜郡二井宿村＿梅津牧場"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "販売店＿上野池之端通リ第1回国産展覧会内＿梅津牧場"
+                }
+            ]
+        }
+    ]
 }

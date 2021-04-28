@@ -8,8 +8,8 @@
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/44932/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:tagging",
-                "oa:commenting"
+                "oa:commenting",
+                "oa:tagging"
             ],
             "on": [
                 {
@@ -23,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4303.87545,798.09025h1019.78159v0h1019.78159v769.08664v769.08664h-1019.78159h-1019.78159v-769.08664z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_a4bc3775-0379-42dd-abb1-1d6e101d384d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4303.87545,798.09025h1019.78159v0h1019.78159v769.08664v769.08664h-1019.78159h-1019.78159v-769.08664z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a4bc3775-0379-42dd-abb1-1d6e101d384d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"64.00722\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,7 +35,7 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>北川聖子</p>",
+                    "chars": "<p>北川聖子、李澈</p>",
                     "format": "text/html"
                 },
                 {
@@ -211,6 +211,83 @@
                 {
                     "@type": "oa:Tag",
                     "chars": "稲手吉五郎"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/57828/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4095d9ee-3665-4de8-ac47-84cd7181ce46/canvas/p21",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1962,2418,2121,2767"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1962.09815,2417.59761h1060.31949v0h1060.31949v1383.55596v1383.55596h-1060.31949h-1060.31949v-1383.55596z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_1b2e2317-514b-4423-a472-724edb86e73b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"38.40433\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/69/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>李澈</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "千代栄太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "吉本興二郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大町賀来馬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小川他喜雄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "梅田藤七"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "榊原仲"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "福田照一"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "遠藤安太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "金近義之助"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "長田一郎"
                 }
             ]
         }

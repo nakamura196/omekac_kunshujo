@@ -2,5 +2,140 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11144/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/53360/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:tagging",
+                "oa:commenting"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p84",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4117,691,2892,1699"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4116.96755,691.15634h1445.92545v0h1445.92545v849.31107v849.31107h-1445.92545h-1445.92545v-849.31107z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e22167c1-e330-4bd4-aa98-1b5b3a6c2294\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>\n<p>[kun087-083-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "共益商会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "申込書"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "議会文書棚"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/53362/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p84",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1064,793,2587,4354"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1063.95889,793.30402h1293.36902v0h1293.36902v2177.04015v2177.04015h-1293.36902h-1293.36902v-2177.04015z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_dc9987a5-87e5-4190-90f8-7e4bc3078163\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.70676\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "アスファルトタイル及塗付工事請負"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ソーゾー防水材発売元＿人造石及硬化石発売元＿営業案内"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "人造石創祖＿砂崎合名会社"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "人造石各種製造販売"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "化粧張付用硬化石製造販売"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "土木建築諸工事一式請負"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大正3年11月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "専売特許＿ソーゾー防水材用途並ニ特徴ノ概略"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "工場＿東京府南葛飾郡下大島町4番地＿電話本所2651番"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "本店＿東京市麹町区平河町2丁目4番地＿電話番町452番＿振替貯金口座東京26466番"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "漆喰壁及セメント用専売特許ソーゾー防水剤製造販売"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "鉄筋コンクリ―ト諸工事請負"
+                }
+            ]
+        }
+    ]
 }

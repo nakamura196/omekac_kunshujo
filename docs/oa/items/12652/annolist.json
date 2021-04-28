@@ -2,5 +2,75 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12652/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56913/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p170",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4127,642,4515,5768"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M8642.62094,641.50181h-2257.69134v0h-2257.69134v2883.88809v2883.88809h2257.69134h2257.69134v-2883.88809z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ecd69d9c-d2a1-45b2-8e20-b6b0d59b0fcc\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"25.86089\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>\n<p>[kun097-169-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "日本蚕桑協会蚕事部春夏秋蚕種製造販売所_蚕桑義館"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "秋蚕種之部"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "蚕桑義館"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "蚕桑義館春夏秋蚕種予約販売禀告"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "蚕桑義館蚕種定価表"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "長野県信濃国東筑摩郡片丘村710番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "風穴蚕種之部"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "館長_田中右一"
+                }
+            ]
+        }
+    ]
 }

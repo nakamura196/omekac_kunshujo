@@ -7,7 +7,10 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/40762/anno.json",
             "@type": "oa:Annotation",
-            "motivation": "oa:commenting",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -20,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1145.0006,5110.28039h2964.29723v0h2964.29723v-2209.61974v-2209.61974h-2964.29723h-2964.29723v2209.61974z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_14311c72-e40f-4765-adc0-8aff5f023e9d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1145.0006,5110.28039h2964.29723v0h2964.29723v-2209.61974v-2209.61974h-2964.29723h-2964.29723v2209.61974z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_14311c72-e40f-4765-adc0-8aff5f023e9d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"22.16073\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -32,8 +35,40 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>相場仁美</p>\n<p>[kun068-010-002]</p>",
+                    "chars": "<p>相場仁美、礒山</p>\n<p>[kun068-010-002]</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重帯革製造所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県飯南郡工業案内"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "伊勢表草履同業組合"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治43年1月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松坂木綿合資会社"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松坂材木合名会社"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "松坂精米所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "藤村工場"
                 }
             ]
         }

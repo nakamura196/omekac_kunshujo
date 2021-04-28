@@ -2,5 +2,99 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12589/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56477/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p107",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4564,590,4460,6337"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M9023.95307,590.22022h-2230.15523v0h-2230.15523v3168.68953v3168.68953h2230.15523h2230.15523v-3168.68953z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_b659bd39-cf68-44ef-8263-d4bcdf6e3300\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"33.20931\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ビール"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ブランデー"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "仏国古醸_チャムベルターン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "太陽"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市日本橋区小網町鎧橋通り"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "桜正宗"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "生葡萄酒"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "舶来生ブドウ酒"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "西洋酒問屋諸缶詰問屋_潮谷亀治"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "貴顕葡萄酒"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "金紺印_クラレット"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "銀紺印_クラレット"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "錦華"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "麒麟麦酒"
+                }
+            ]
+        }
+    ]
 }

@@ -2,5 +2,115 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12642/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56803/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p160",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1132,1659,4729,3030"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5861.22924,1659.28159h-2364.7491v0h-2364.7491v1515.07942v1515.07942h2364.7491h2364.7491v-1515.07942z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ba1c4fc8-df9b-405f-afa2-8502138eaf80\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"14.67194\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>\n<p>[kun097-159-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三野村利助"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "中澤彦吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "乙部鼎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "二橋元長"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "北川亥之作"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "喜谷市郎右衛門"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "子安峻"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "安田善次郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小野義真"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "山中隣之助"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "川崎八右衛門"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "故成島柳北氏記念碑落成"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治19年6月"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "林徳左衛門"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "熊谷武五郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "肥田昭作"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "芦田順三郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "飯田巽"
+                }
+            ]
+        }
+    ]
 }

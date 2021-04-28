@@ -2,5 +2,99 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/9991/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/50832/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0deed30d-27bb-497e-a02a-dcb49b8f9fec/canvas/p60",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4175,704,2972,4507"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4174.58413,5210.7782h1485.84512v0h1485.84512v-2253.38815v-2253.38815h-1485.84512h-1485.84512v2253.38815z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_491f3afc-7339-43f6-88ee-a0a9ecae629d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.34866\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/77/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>今井海月</p>\n<div class=\"memorize_new_word_loading\" style=\"display: none;\">&nbsp;</div>\n<div class=\"bv-shadow-dom bv-shadow-dom-fade_out\">&nbsp;</div>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "児玉一英"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "千葉賢永"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "原善久"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "吉川澤誠"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大友兵馬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大谷文祐"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "岩倉郁太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "岩橋永太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "庄村松五郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "武田誓順"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "深谷地次郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "道重信教"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "金子元蔵"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "高木浦蔵"
+                }
+            ]
+        }
+    ]
 }

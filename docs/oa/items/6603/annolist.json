@@ -7,7 +7,10 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/38791/anno.json",
             "@type": "oa:Annotation",
-            "motivation": "oa:commenting",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -20,7 +23,7 @@
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1186.57143,2898.52995h2833.4424v0h2833.4424v1165.29724v1165.29724h-2833.4424h-2833.4424v-1165.29724z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_1e3057b8-a49a-4d15-8704-f3b56e368747\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1186.57143,2898.52995h2833.4424v0h2833.4424v1165.29724v1165.29724h-2833.4424h-2833.4424v-1165.29724z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_1e3057b8-a49a-4d15-8704-f3b56e368747\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"13.62388\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -32,8 +35,32 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>伊藤祥子</p>\n<p>[kun052-096-004]</p>",
+                    "chars": "<p>伊藤祥子、木下優友</p>\n<p>[kun052-096-004]</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ヒゲタ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "上付"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "上髭"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "以竜井水吟味精醸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "醤油"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "髭田"
                 }
             ]
         }

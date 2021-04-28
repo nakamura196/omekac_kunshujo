@@ -2,5 +2,91 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12588/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/56476/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p106",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=774,561,10350,6211"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M11123.88448,561.20939h-5175.16245v0h-5175.16245v3105.3565v3105.3565h5175.16245h5175.16245v-3105.3565z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_f8dbddf7-183b-4f36-b258-bcd0846071bf\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"26.94538\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "和歌山県有田郡山田原_上山英一郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "増補訂正除虫菊栽培書"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "外務省通商局長重岡薫五郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大日本私立衛生会会長_大森鐘一"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "種子定価"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "種苗定価"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "種苗申込心得発送手続"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "第4回内国勧業博覧会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "良種識別大意"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "除虫液"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "除虫菊創植者_上山英一郎農園"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "除虫菊良種識別種苗製粉申込心得発送手続及定価予約割引案内"
+                }
+            ]
+        }
+    ]
 }

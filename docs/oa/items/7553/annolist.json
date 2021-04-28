@@ -5,11 +5,11 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/41479/anno.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/54363/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
-                "oa:commenting",
-                "oa:tagging"
+                "oa:tagging",
+                "oa:commenting"
             ],
             "on": [
                 {
@@ -19,11 +19,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=1651,801,4776,2292"
+                            "value": "xywh=1277,870,5422,4320"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6427.03555,800.55967h-2388.15839v0h-2388.15839v1146.19091v1146.19091h2388.15839h2388.15839v-1146.19091z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_67185dda-80e5-4c69-a93d-dfe8ad13fdf1\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.54004\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6699.04685,5190.43786h-2711.04589v0h-2711.04589v-2160.16157v-2160.16157h2711.04589h2711.04589v2160.16157z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7d4a9573-20bf-4adf-a903-5bf76cc8373f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,77 +35,16 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>坂田恵子</p>",
+                    "chars": "<p>礒山麻衣</p>\n<p>[kun058-116-002]</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "創立"
+                    "chars": "明治商業銀行案内"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "明治29年10月"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "株式会社＿明治商業銀行案内"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "頭取＿安田善助"
-                }
-            ]
-        },
-        {
-            "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/41480/anno.json",
-            "@type": "oa:Annotation",
-            "motivation": [
-                "oa:commenting",
-                "oa:tagging"
-            ],
-            "on": [
-                {
-                    "@type": "oa:SpecificResource",
-                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ec7ba99b-8ada-479f-bcf8-ba529fbc1a6b/canvas/p117",
-                    "selector": {
-                        "@type": "oa:Choice",
-                        "default": {
-                            "@type": "oa:FragmentSelector",
-                            "value": "xywh=1242,3095,5616,2147"
-                        },
-                        "item": {
-                            "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6858.23767,3095.23827h-2808.20578v0h-2808.20578v1073.7136v1073.7136h2808.20578h2808.20578v-1073.7136z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_40fd7940-f039-46ad-a35a-cc55f83c70a1\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.48614\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                        }
-                    },
-                    "within": {
-                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/59/manifest.json",
-                        "@type": "sc:Manifest"
-                    }
-                }
-            ],
-            "resource": [
-                {
-                    "@type": "dctypes:Text",
-                    "chars": "<p>坂田恵子</p>",
-                    "format": "text/html"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "創立日"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "取締役頭取＿安田善助"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "明治29年12月1日"
-                },
-                {
-                    "@type": "oa:Tag",
-                    "chars": "株式会社＿金城貯蓄銀行案内"
+                    "chars": "金城貯蓄銀行案内"
                 }
             ]
         }

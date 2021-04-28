@@ -2,5 +2,156 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/4709/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/54282/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29ce9528-b3c8-475b-8d40-74cb99083cae/canvas/p152",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1467,902,2601,4039"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1466.81325,902.3012h1300.48795v0h1300.48795v2019.65663v2019.65663h-1300.48795h-1300.48795v-2019.65663z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_1ebb4ffc-c5a7-4601-973c-a28d2e67ad02\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"20.60325\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/42/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>張郭原</p>\n<p>[kun040-152-001]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ねつとり解熱丸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "めぐすり奇効水"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "健胃強腸腸胃丸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "前香川県属薬品監視員木村程吉処方"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "回生千金丹"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "回生金龍丹"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "帝国大学医学士柏原長英先生之証明"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "帝国大学得業薬剤師蟹江大次郎先生処方"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "陸軍第五師団御用薬"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/54283/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29ce9528-b3c8-475b-8d40-74cb99083cae/canvas/p152",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4023,838,2843,4167"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4023.06627,838.21687h1421.53614v0h1421.53614v2083.74096v2083.74096h-1421.53614h-1421.53614v-2083.74096z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_e55762e4-b550-4211-82f5-4a16dfa6d881\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.04975\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/42/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>張郭原</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔巖谷一六〕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "停車場前"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大饅頭"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小まん頭支店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小饅頭"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小饅頭の御披露"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "暑中にても1週間は腐敗せぬ"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東海道島田駅名物暑中請合"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "清水令蔵"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "静岡市紺屋町"
+                }
+            ]
+        }
+    ]
 }

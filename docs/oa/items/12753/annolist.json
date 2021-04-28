@@ -2,5 +2,79 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12753/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/58172/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p271",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=815,691,6438,8759"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7252.58123,691.25993h-3219.00993v0h-3219.00993v4379.48375v4379.48375h3219.00993h3219.00993v-4379.48375z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_59b94aa6-99f5-49d8-86cc-4dfa372241a7\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>徐燕斌</p>\n<p>&nbsp;</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "京都市図"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "印刷者_中田貞矩"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大阪市南区安堂寺町4丁目207番邸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "大阪市南区末吉橋通4丁目89番邸"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治28年3月3日印刷"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治28年3月7日発行"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治28年4月10日訂正増補"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "発行者_中村芳松"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "編輯者_清水常太郎"
+                }
+            ]
+        }
+    ]
 }

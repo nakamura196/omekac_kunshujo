@@ -2,5 +2,136 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11147/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/53366/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p87",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4008,639,2863,4492"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4007.68834,638.66157h1431.44264v0h1431.44264v2246.07696v2246.07696h-1431.44264h-1431.44264v-2246.07696z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_ff49b48c-199d-4c5d-aad9-21e03b6c5691\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.31055\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>\n<p>[kun087-086-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔工場内部写真〕"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "特許乗除計算機"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "特許加減計算機"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/53367/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p87",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1206,1342,2385,3778"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1205.82131,1342.27961h1192.44019v0h1192.44019v1889.01054v1889.01054h-1192.44019h-1192.44019v-1889.01054z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_f29f2b63-6b6d-47ce-84f8-3d0c4b803e7f\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.09774\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "中元＿歳暮＿其外御贈答品配達"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "乗客用貸自働車"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "婚礼調度各種貨物＿自働車運搬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小荷物大荷物＿市内配達"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "市内市外＿引越荷物運搬＿"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "日本郵船＿積貨物特約集貨"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市日本橋区通旅籠町＿内国通運株式会社＿日本橋集荷所"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "汽車積大小貨物運搬"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "社有汽船＿通運丸積貨物"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "雑誌＿書籍類＿広告印刷物＿配達並ニ集金"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "電話浪花＿長5040番＿5041番＿5042番＿5043番＿5044番"
+                }
+            ]
+        }
+    ]
 }

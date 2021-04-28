@@ -5,7 +5,7 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://diyhistory.org/public/kunshujo/oa/items/31709/anno.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/49550/anno.json",
             "@type": "oa:Annotation",
             "motivation": [
                 "oa:commenting",
@@ -19,11 +19,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=943,419,5932,4573"
+                            "value": "xywh=5383,2198,1457,2770"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6875.19795,418.86984h-2965.96751v0h-2965.96751v2286.66386v2286.66386h2965.96751h2965.96751v-2286.66386z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_26f3149f-934d-4d6e-9b29-c2a966bed3a5\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"65.93261\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6839.94572,4967.74517h-728.32567v0h-728.32567v-1384.90065v-1384.90065h728.32567h728.32567v1384.90065z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_67e663b4-5416-485f-97c0-064234c7c514\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3.03128\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -35,36 +35,73 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>村上美和</p>\n<p>［kun025-095-002］</p>",
+                    "chars": "<p>木下優友</p>\n<p><span style=\"color: #333333; font-family: 'Open Sans', 'Lucida Grande', Verdana, Arial, sans-serif; background-color: #fafafa;\">[kun037-095-002]</span></p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "徳川篤敬"
+                    "chars": "御礼"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "法要案内状"
+                    "chars": "特命全権公使＿従二位＿侯爵＿蜂須賀茂韶"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "田中芳男宛"
+                    "chars": "稲井永敏"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "箕作佳吉"
+                    "chars": "蓮遊院葬儀"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/49551/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/ae79a1ed-6f7a-4da5-85b0-4394cc6e7351/canvas/p96",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4687,475,2095,1692"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6782.3013,474.66252h-1047.44803v0h-1047.44803v845.79266v845.79266h1047.44803h1047.44803v-845.79266z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_4b1e0733-ebba-4658-855e-929bb111f0ef\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.01517\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/26/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>",
+                    "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "緒方惟準"
+                    "chars": "元老院議官＿従四位＿田中芳男"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "菊池大麓"
+                    "chars": "明治19年10月20日"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "進藤高潔"
+                    "chars": "本郷区金助町72番地"
                 }
             ]
         }

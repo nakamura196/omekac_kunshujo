@@ -2,5 +2,79 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/11176/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/54123/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/c9e4d2a8-4e68-4e05-9d06-e371a3246ff0/canvas/p116",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1136,683,5989,4481"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1135.75717,682.84512h2994.43595v0h2994.43595v2240.55402v2240.55402h-2994.43595h-2994.43595v-2240.55402z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_2b4c9bca-8abe-4864-8d03-51053a90114e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.28719\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/84/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>木下優友</p>\n<p>[kun087-115-002]</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "カーニオラン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "ゴールデンイタリー"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "サクセスゴルデン"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "一代雑種"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "分園規定"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "実地研究生"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "実地研究生規定"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "普通雑種"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "種蜂分譲規定"
+                }
+            ]
+        }
+    ]
 }

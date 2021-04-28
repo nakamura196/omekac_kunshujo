@@ -2,5 +2,79 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/12781/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/58822/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/f04d8345-93d2-4fd0-9d76-c07efb99d99f/canvas/p299",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=675,636,9193,6506"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M9867.30325,635.93863h-4596.31859v0h-4596.31859v3253.10018v3253.10018h4596.31859h4596.31859v-3253.10018z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_e482617c-c95b-479d-8ae9-2ede1797080e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"83.20939\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/95/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>渡部真璃那</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "[kun097-297-003]"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "マニラ貿易麦粉佐藤米穀商"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三保源八商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小麦粉新報"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "小麦粉新報_第70号"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "神戸市兵庫湊町1丁目"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "神戸市栄町2丁目"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "米利堅粉直輸入販売"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "素麺卸問屋池内商店"
+                }
+            ]
+        }
+    ]
 }

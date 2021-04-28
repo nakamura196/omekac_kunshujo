@@ -7,7 +7,10 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://diyhistory.org/public/kunshujo/oa/items/40770/anno.json",
             "@type": "oa:Annotation",
-            "motivation": "oa:commenting",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
             "on": [
                 {
                     "@type": "oa:SpecificResource",
@@ -16,11 +19,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=4162,704,3437,4436"
+                            "value": "xywh=4213,758,3354,4344"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4161.68592,5139.91336h1718.52708v0h1718.52708v-2217.91697v-2217.91697h-1718.52708h-1718.52708v2217.91697z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_10e71fb3-ad5a-4778-ae9f-70b09ee3e862\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4212.74424,5101.61962h1677.0422v0h1677.0422v-2171.87818v-2171.87818h-1677.0422h-1677.0422v2171.87818z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_10e71fb3-ad5a-4778-ae9f-70b09ee3e862\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"40.33788\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -32,8 +35,12 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>相場仁美</p>\n<p>[kun068-014-004]</p>",
+                    "chars": "<p>相場仁美、礒山</p>\n<p>[kun068-014-004]</p>",
                     "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "〔麦耕作法〕"
                 }
             ]
         },
@@ -53,11 +60,11 @@
                         "@type": "oa:Choice",
                         "default": {
                             "@type": "oa:FragmentSelector",
-                            "value": "xywh=1206,727,2977,4396"
+                            "value": "xywh=1266,727,2823,4396"
                         },
                         "item": {
                             "@type": "oa:SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1205.5006,5122.13357h1488.57521v0h1488.57521v-2197.76655v-2197.76655h-1488.57521h-1488.57521v2197.76655z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_b3480c0d-42fa-4690-8bb1-568a97da30bd\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"34.29742\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1266.00743,5122.13357h1411.26093v0h1411.26093v-2197.76655v-2197.76655h-1411.26093h-1411.26093v2197.76655z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_b3480c0d-42fa-4690-8bb1-568a97da30bd\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"40.33788\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                         }
                     },
                     "within": {
@@ -69,16 +76,76 @@
             "resource": [
                 {
                     "@type": "dctypes:Text",
-                    "chars": "<p>相場仁美</p>",
+                    "chars": "<p>相場仁美、礒山</p>",
                     "format": "text/html"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "三重県"
+                    "chars": "〔名刺〕"
                 },
                 {
                     "@type": "oa:Tag",
-                    "chars": "名刺"
+                    "chars": "三重県属_鳥山利隆"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県工業試験場技師_佐田友雄"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県師範学校長_相沢英二郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県技手_小野重夫"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県技手_村上晋"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県技手_谷口周三郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県松阪町長_大村福五郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県松阪警察署長_向井英太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県立工業学校長兼三重県工業試験場技師_三上虎太郎"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県立農事試験場長_宮川助一"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県飯南郡書記_中森半之助"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県飯南郡神戸村絹織物業_東出忠吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県飯南郡農業技手_鈴木万七"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "三重県飯南郡長_甘粕春吉"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "勧業課長_八尾信夫"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "飯南郡農業技手_伴野熊吉"
                 }
             ]
         }

@@ -2,5 +2,148 @@
     "@context": "http://www.shared-canvas.org/ns/context.json",
     "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/items/4660/annolist.json",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/52148/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29ce9528-b3c8-475b-8d40-74cb99083cae/canvas/p103",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1125,639,3007,4573"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1125.03012,638.84337h1503.42169v0h1503.42169v2286.6747v2286.6747h-1503.42169h-1503.42169v-2286.6747z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_e26f399b-f27c-4a55-9bdf-1a126b608f6b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"20.26386\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/nakamura196/omekac_kunshujo/master/docs/oa/collections/42/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>張郭原</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "上り"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "下り"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "下野干瓢缶詰商会"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "宇都宮市発時間"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "干瓢"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "日光"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "明治34年4月3日"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://diyhistory.org/public/kunshujo/oa/items/52151/anno.json",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "on": [
+                {
+                    "@type": "oa:SpecificResource",
+                    "full": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/29ce9528-b3c8-475b-8d40-74cb99083cae/canvas/p103",
+                    "selector": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=4156,589,2916,4690"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M7072.20958,589.42283h-1457.99826v0h-1457.99826v2345.12386v2345.12386h1457.99826h1457.99826v-2345.12386z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_f9b37f8c-c53c-4024-90f6-db96d7eb84f0\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.28719\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        }
+                    },
+                    "within": {
+                        "@id": "https://diyhistory.org/public/kunshujo/oa/collections/42/manifest.json",
+                        "@type": "sc:Manifest"
+                    }
+                }
+            ],
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<p>張郭原</p>",
+                    "format": "text/html"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "定価表"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "専売特許"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "摂州伊丹町"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "新荷沢山到着"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "東京市神田区鍋町6番地"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "清涼花筵に優る"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "由多加織合資会社"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "由多加織敷物特約大販売広告"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "由多加織特約販売辻商店"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "製造元"
+                }
+            ]
+        }
+    ]
 }
