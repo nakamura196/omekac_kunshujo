@@ -6,6 +6,7 @@ import requests
 import os
 import shutil
 import glob
+import hashlib
 
 import re
 
@@ -26,6 +27,10 @@ curation_label = "Kunshujo"
 
 selections_map = {}
 uuids = {}
+
+images = {}
+
+m_labels = {}
 
 for i in range(0, len(files)):
 
@@ -78,6 +83,28 @@ for i in range(0, len(files)):
         if manifest not in selections_map:
             selections_map[manifest] = {}
 
+            mid = hashlib.md5(manifest.encode('utf-8')).hexdigest()
+
+            mpath = "../docs/iiif/" + mid + "/manifest.json"
+
+            if not os.path.exists(mpath):
+                df = requests.get(manifest).json()
+
+                os.makedirs(os.path.dirname(mpath), exist_ok=True)
+
+                with open(mpath, 'w') as outfile:
+                    json.dump(df, outfile, ensure_ascii=False,
+                                indent=4, sort_keys=True, separators=(',', ': '))
+
+            with open(mpath) as f:
+                mdata = json.load(f)
+
+            m_labels[manifest] = mdata["label"]
+
+            canvases = mdata["sequences"][0]["canvases"]
+            for canvas2 in canvases:
+                images[canvas2["@id"]] = canvas2["images"][0]["resource"]["service"]["@id"]
+
         selections_map[manifest][canvas] = uuid
 
     if anno_flg:
@@ -120,14 +147,17 @@ for manifest in selections_map:
         annos = uuids[uuid]
 
         for anno in annos:
+
+            xywh = anno["xywh"]
+
             members.append({
-                "@id": canvas + "#xywh=" + anno["xywh"],
+                "@id": canvas + "#xywh=" + xywh,
                 "@type": "sc:Canvas",
-                # "label": label + " p." + str(page) + " ["+str(j+1)+"]",
-                "label": canvas + "#" + anno["xywh"],
+                "label": m_labels[manifest] + " p." + str(canvas.split("/p")[1]) + " ["+str(len(members)+1)+"]",
+                # "label": canvas + "#" + anno["xywh"],
                 "description": "",
                 "metadata" : anno["metadata"],
-                # "thumbnail" : image_api + "/" + area.split("=")[1]+"/200,/0/default.jpg"
+                "thumbnail" : images[canvas] + "/" + xywh + "/200,/0/default.jpg"
             })
 
     if len(members) > 0:
@@ -139,7 +169,7 @@ for manifest in selections_map:
             "within" : {
                 "@id" : manifest,
                 "@type" : "sc:Manifest",
-                "label" : manifest
+                "label" : m_labels[manifest]
             }
         })
 
