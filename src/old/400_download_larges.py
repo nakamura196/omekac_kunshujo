@@ -23,35 +23,18 @@ def download_img(url, file_name):
             data = web_file.read()
             with open(file_name, mode='wb') as local_file:
                 local_file.write(data)
-            print("--- downloaded", id)
+            print("downloaded", url)
     except urllib.error.URLError as e:
-        print(id, url, e)
-        result = [id, url, e]
+        print("error", url, e)
+        result = [url, e]
     return result
 
-path = "../docs/curation/test.json"
-
-def aaa(manifests, collection):
-    manifests2 = []
-    if "collections" in collection:
-        collections = collection["collections"]
-
-        print(len(collections))
-
-        for i in range(len(collections)):
-            collection2 = collections[i]
-            manifests2 = aaa(manifests2, collection2)
-
-    elif "manifests" in collection:
-        manifests2 = collection["manifests"] 
-    
-    for j in range(len(manifests2)):
-        manifests.append(manifests2[j])
-
-    return manifests
+path = "../../docs/curation/top.json"
 
 with open(path) as f:
     curation = json.load(f)
+
+    targets = []
 
     selections = curation["selections"]
 
@@ -64,10 +47,19 @@ with open(path) as f:
             id = member["@id"]
             id = hashlib.md5(id.encode('utf-8')).hexdigest()
 
-            path = "../docs/files/large/"+id+".jpg"
+            path = "../../docs/files/large/"+id+".jpg"
 
             if not os.path.exists(path):
-                download_img(thumbnail, path)
+                # download_img(thumbnail, path)
+                targets.append({
+                    "url": thumbnail,
+                    "path": path
+                })
 
+    for i in range(len(targets)):
+        if i % 100 == 0:
+            print(i+1, len(targets))
 
-# print(collection)
+        target = targets[i]
+
+        download_img(target["url"], target["path"])

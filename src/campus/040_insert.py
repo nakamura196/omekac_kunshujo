@@ -18,9 +18,19 @@ with open(main_path) as f:
 
 tags_sorted = sorted(tags.items(), key=lambda x:x[1], reverse=True)
 
-tags_sorted = tags_sorted[0:2000]
+
+
+tags_sorted = tags_sorted[0:50]
+
+tags_key_sorted = sorted(tags.items(), key=lambda x:x[0], reverse=True)
+
+print(tags_key_sorted)
 
 print(len(tags_sorted))
+
+users = ["A", "B", "C", "D"]
+
+# unit = int(len(tags_sorted) / len(users))
 
 row_size = len(tags_sorted) + 10000
 
@@ -41,6 +51,8 @@ SPREADSHEET_KEY = '1RyPtvYi5hLTjPXZRO8gTeS9F32vy8RYYbVz-UI1-jy0'
 
 worksheet = gc.open_by_key(SPREADSHEET_KEY).sheet1
 
+
+
 ds = worksheet.range("A1:N"+str(row_size))
 
 exist_values = {}
@@ -58,8 +70,8 @@ for i in range(1, row_size):
         last_index = index + col_size
 
         for j in range(0, 6):
-            uri = ds[index + 2 + 2 * j].value
-            wiki =  ds[index + 3 + 2 * j].value
+            uri = ds[index + 3 + 2 * j].value
+            wiki =  ds[index + 4 + 2 * j].value
 
             if ":" in uri:
                 structured[value] = {
@@ -83,6 +95,13 @@ for i in range(1, len(tags_sorted)):
         ds[start * col_size + last_index].value = '=HYPERLINK("'+url+'","'+value+'")'
         ds[start * col_size + 1 + last_index].value = count
 
+        c = ds[start * col_size + 2 + last_index]
+
+        user = c.value
+
+        if user == "":
+            c.value = "A"
+
         start += 1
 
     else:
@@ -91,7 +110,12 @@ for i in range(1, len(tags_sorted)):
         ds[index].value = '=HYPERLINK("'+url+'","'+value+'")'
         ds[index + 1].value = count
 
-# worksheet.update_cells(ds,value_input_option='USER_ENTERED')
+        user = ds[index + 2].value
+
+        if user == "":
+            ds[index + 2].value = "A"
+
+worksheet.update_cells(ds,value_input_option='USER_ENTERED')
 
 with open("data/structured.json", 'w') as outfile:
     json.dump(structured, outfile, ensure_ascii=False,

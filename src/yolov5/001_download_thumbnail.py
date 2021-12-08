@@ -51,10 +51,11 @@ with open(path) as f:
 
         mpath = "../../docs/iiif/" + mid + "/manifest.json"
 
-        if not os.path.exists(mpath):
+        if True or not os.path.exists(mpath):
+            print(manifest)
             df = requests.get(manifest).json()
 
-            os.makedirs(os.dirname(mpath), exist_ok=True)
+            os.makedirs(os.path.dirname(mpath), exist_ok=True)
 
             with open(mpath, 'w') as outfile:
                 json.dump(df, outfile, ensure_ascii=False,

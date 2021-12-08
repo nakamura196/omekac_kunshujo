@@ -9,7 +9,7 @@ import hashlib
 
 tags = {}
 
-main_path = "/Users/nakamurasatoru/git/d_omeka/omekac_kunshujo/docs/curation/test.json"
+main_path = "/Users/nakamurasatoru/git/d_omeka/omekac_kunshujo/docs/curation/top.json"
 
 with open(main_path) as f:
     curation = json.load(f)
@@ -25,11 +25,12 @@ for selection in selections:
 
         for m in metadata:
             if m["label"] == "タグ":
-                tag = m["value"]
-                if tag not in tags:
-                    tags[tag] = 0
+                values = m["value"]
+                for tag in values:
+                    if tag not in tags:
+                        tags[tag] = 0
 
-                tags[tag] += 1
+                    tags[tag] += 1
 
 opath = "data/tags.json"
 
