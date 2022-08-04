@@ -78,17 +78,20 @@ with open(path) as f:
 
             line = max(width, height)
 
+            div_x = width # line
+            div_y = height # line
+
             # r = 416 / line
 
             # print(r)
 
-            x2 = x + (line - width) / 2 # 補完
-            y2 = y + (line - height) / 2
+            x2 = x + (div_x - width) / 2 # 補完
+            y2 = y + (div_y - height) / 2
 
-            x_center = (x2 + w / 2) / line
-            y_center = (y2 + h / 2) / line
-            w2 = w / line
-            h2 = h / line
+            x_center = (x2 + w / 2) / div_x
+            y_center = (y2 + h / 2) / div_y
+            w2 = w / div_x
+            h2 = h / div_y
 
             row = "{} {} {} {} {}".format(0, x_center, y_center, w2, h2)
 

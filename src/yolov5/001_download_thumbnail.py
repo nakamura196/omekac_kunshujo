@@ -21,6 +21,7 @@ def download_img(url, file_name):
         request = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(request) as web_file:
             data = web_file.read()
+            os.makedirs(os.path.dirname(file_name), exist_ok=True)
             with open(file_name, mode='wb') as local_file:
                 local_file.write(data)
             print("--- downloaded", id)
@@ -85,7 +86,9 @@ with open(path) as f:
 
             # size = "416," if img["width"] < img["height"] else ",416"
 
-            thumbnail = img["image"] + "/full/!416,416/0/default.jpg"
+            size = 1024
+
+            thumbnail = img["image"] + f"/full/!{size},{size}/0/default.jpg"
 
             id = spl[0] # member["@id"]
             id = hashlib.md5(id.encode('utf-8')).hexdigest()

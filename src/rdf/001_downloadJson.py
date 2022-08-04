@@ -30,7 +30,9 @@ def dwn(url, opath):
     except Exception as e:
         print("Err", url)
 
-st_path = "/Users/nakamurasatoru/git/d_kunshujo/kunshujo_data/src/data/structured.json"
+APP_DIR = "/Users/nakamura/git/kunshujo/kunshujo"
+
+st_path = f"{APP_DIR}/src/data/structured.json"
 
 with open(st_path) as f:
     st = json.load(f)
@@ -57,6 +59,39 @@ for key in st:
                     dwn(wikidata, opath)
                 else:
                     ln = wiki.split("/")[-1]
+
+                    wikipedia = f"https://ja.wikipedia.org/wiki/{ln}"
+                    opath = "data/wikipedia/"+ln+".html"
+
+                    if not os.path.exists(opath):
+                        os.makedirs(os.path.dirname(opath), exist_ok=True)
+
+                        site_data = requests.get(wikipedia)
+
+                        with open(opath, "w") as f:
+                            f.write(site_data.text)   
+
+                    ######
+
+                    media_wiki = f"https://ja.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&pithumbsize=200&titles={ln}"
+                    opath = "data/media/"+ln+".json"
+
+                    if not os.path.exists(opath):
+                        os.makedirs(os.path.dirname(opath), exist_ok=True)
+
+                        try:
+                            result = requests.get(media_wiki).json()
+
+                            with open(opath, 'w') as outfile:
+                                json.dump(result, outfile, ensure_ascii=False,
+                                    indent=4, sort_keys=True, separators=(',', ': '))
+
+                            
+                            
+                        except Exception as e:
+                            print("Err", dbpedia_ja)   
+
+                    ######
 
                     dbpedia_ja = "http://ja.dbpedia.org/data/" + ln + ".json"
 
